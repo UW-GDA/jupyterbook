@@ -3,6 +3,38 @@
 
 format: jb-book
 root: intro
-chapters:
-- file: markdown
-- file: notebooks
+parts:
+  
+- caption: Modules
+  chapters:
+    - file: 01_Shell_Github/01_Shell_Github_demo
+      sections:
+      - file: 01_Shell_Github/01_Shell_Github_exercises
+      - file: 01_Shell_Github/01_Shell_Github_prep
+      - file: 01_Shell_Github/README
+    - file: 02_Python_Jupyter/02_Python_Jupyter_prep
+      sections:
+      - file: 02_Python_Jupyter/README
+    - file: 03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_prep
+      sections:
+      - file: 03_NumPy_Pandas_Matplotlib/README
+    - file: 04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Projections_prep
+      sections:
+      - file: 04_Vector1_Geopandas_CRS_Proj/README
+    - file: 05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_prep
+      sections:
+      - file: 05_Raster1_GDAL_rasterio_LS8/README
+    - file: 06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_prep
+      sections:
+      - file: 06_Vector2_Geometries_SpatialOps_Viz/README
+    - file: 07_Raster2_DEMs_Warp_Clip_Sample/README
+    - file: 08_Vector_TimeSeries_SNOTEL/README
+    - file: 09_NDarrays_xarray_ERA5/README
+    - file: 10_Conda_Pangeo_Dask/conda
+      sections:
+      - file: 10_Conda_Pangeo_Dask/jupyterhub_migration
+      - file: 10_Conda_Pangeo_Dask/README
+
+- caption: Reference
+  chapters:
+    - file: bibliography
