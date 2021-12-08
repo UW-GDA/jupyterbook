@@ -4,5 +4,63 @@
 format: jb-book
 root: intro
 chapters:
-- file: markdown
-- file: notebooks
+
+- file: 01_Shell_Github/README
+  sections:
+  - file: 01_Shell_Github/01_Shell_Github_prep
+  - file: 01_Shell_Github/01_Shell_Github_demo
+  - file: 01_Shell_Github/01_Shell_Github_exercises
+
+- file: 02_Python_Jupyter/README
+  sections:
+  - file: 02_Python_Jupyter/02_Python_Jupyter_prep
+  - file: 02_Python_Jupyter/02_Python_Jupyter_demo
+  - file: 02_Python_Jupyter/02_Python_Jupyter_exercises
+
+- file: 03_NumPy_Pandas_Matplotlib/README
+  sections:
+  - file: 03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_prep
+  - file: 03_NumPy_Pandas_Matplotlib/03_Matplotlib_Backend_Demo
+  - file: 03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Demo
+  - file: 03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_ICESat_exercises
+
+- file: 04_Vector1_Geopandas_CRS_Proj/README
+  sections:
+  - file: 04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Projections_prep
+  - file: 04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_demo
+  - file: 04_Vector1_Geopandas_CRS_Proj/04_Tissot_MapDistortion_demo
+  - file: 04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_exercises
+
+- file: 05_Raster1_GDAL_rasterio_LS8/README
+  sections:
+  - file: 05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_prep
+  - file: 05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_Demo
+  - file: 05_Raster1_GDAL_rasterio_LS8/05_Raster1_Intro_array_masking_indexing
+  - file: 05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_Part1_exercises
+  - file: 05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_Part2_exercises
+
+- file: 06_Vector2_Geometries_SpatialOps_Viz/README
+  sections:
+  - file: 06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_prep
+  - file: 06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_exercises
+
+- file: 07_Raster2_DEMs_Warp_Clip_Sample/README
+  sections:
+  - file: 07_Raster2_DEMs_Warp_Clip_Sample/remote_DEM_download_OpenTopography_CopDEM_3DEP_Zenodo
+  - file: 07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEMs_Warp_Clip_Sample_exercises
+
+- file: 08_Vector_TimeSeries_SNOTEL/README
+  sections:
+  - file: 08_Vector_TimeSeries_SNOTEL/Timestamp_demo
+  - file: 08_Vector_TimeSeries_SNOTEL/Trajectory_Demo
+  - file: 08_Vector_TimeSeries_SNOTEL/08_Vector_TimeSeries_SNOTEL_exercises
+
+- file: 09_NDarrays_xarray_ERA5/README
+  sections:
+  - file: 09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part0_download
+  - file: 09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part1_exercises
+  - file: 09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part2
+
+- file: 10_Conda_Dask_rioxarray_etc/README
+  sections:
+  - file: 10_Conda_Dask_rioxarray_etc/rioxarray_dask
