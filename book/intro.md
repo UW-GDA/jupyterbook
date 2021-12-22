@@ -1,15 +1,16 @@
 # Geospatial Data Analysis with Python
-### Course material from the Winter 2022 offering at the University of Washington (CEE498/CEWA599)  
+
+Course material from the Winter 2022 offering at the University of Washington (CEE498/CEWA599)  
+
 David Shean  
 Civil and Environmental Engineering  
 University of Washington  
 https://dshean.github.io  
 
-
 ## Overview
 This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. We will explore fundamental concepts and real-world data science applications involving a variety of geospatial datasets.
 
-#### Highlights:  
+## Highlights  
 - Aspects of both data engineering and data science, with exploratory data analysis approach
 - Learn how to programatically answer real-world remote sensing and GIS questions (and how to ask new questions)
 - Query and process geospatial data on-the-fly, without manual downloads
@@ -17,33 +18,34 @@ This course explores geospatial data processing, analysis, interpretation, and v
 - Examples focus on Washington state and Western U.S.
 
 ## Samples
-#### ICESat satellite laser altimetry data over Western U.S. (modules 3-4, 6)
+
+**ICESat satellite laser altimetry data over Western U.S. (modules 3-4, 6)**
 ![ICESat points](./resources/sample_img/glas_combined.png)
-#### Estimating snow-covered area for Mt. Rainier from Landsat-8 multi-spectral satellite imagery (module 5)
+**Estimating snow-covered area for Mt. Rainier from Landsat-8 multi-spectral satellite imagery (module 5)**
 ![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
-#### Raster DEM analysis to estimate impacts of sea level rise and hazards near WA highways (module 7)
+**Raster DEM analysis to estimate impacts of sea level rise and hazards near WA highways (module 7)**
 ![whidbey_slr](./resources/sample_img/whidbey_slr.png)
 ![WA highways](./resources/sample_img/wa_highways.png)
-#### Western U.S. SNOTEL station analysis (module 8)
+**Western U.S. SNOTEL station analysis (module 8)**
 ![Rainier SNOTEL](./resources/sample_img/rainier_snotel_corr_ts.png)
 ![SNOTEL perc normal](./resources/sample_img/snotel_paradise_perc_normal_westernUS.png)
-#### Global and regional climate reanalysis data (module 9)
+**Global and regional climate reanalysis data (module 9)**
 ![ERA5 Climatology](./resources/sample_img/era5_climatology.png)
 ![ERA5 WA](./resources/sample_img/era5_wa_2panel.png)
 
 ## Modules
 The course is organized into 10 week-long modules. Each module contains background reading assignments and Jupyter notebooks with introduction, demo, and lab exercises. The material builds on content and datasets from previous weeks.
 
-#### 1. [Shell and git/Github](modules/01_Shell_Github)
-#### 2. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter)
-#### 3. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib)
-#### 4. [Vector 1: Geopandas, CRS, Projections](modules/04_Vector1_Geopandas_CRS_Proj)
-#### 5. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8)
-#### 6. [Vector 2: Geometries, Spatial Operations, Visualization](modules/06_Vector2_Geometries_SpatialOps_Viz)
-#### 7. [Raster 2: Warping, Clipping, Sampling, DEM Analysis](modules/07_Raster2_DEMs_Warp_Clip_Sample)
-#### 8. [Vector time series, SNOTEL data](modules/08_Vector_TimeSeries_SNOTEL)
-#### 9. [ND arrays, xarray, ERA5 climate reanalysis data](modules/09_NDarrays_xarray_ERA5)
-#### 10. [Pangeo, Dask, conda](modules/10_Conda_Pangeo_Dask)
+1. [Shell and git/Github](modules/01_Shell_Github/README.md)
+2. [Python, iPython, Jupyter notebooks](modules/02_Python_Jupyter/README.md)
+3. [Numpy, Pandas, Matplotlib](modules/03_NumPy_Pandas_Matplotlib/README.md)
+4. [Vector 1: Geopandas, CRS, Projections](modules/04_Vector1_Geopandas_CRS_Proj/README.md)
+5. [Raster 1: GDAL, rasterio, Landsat-8 satellite imagery](modules/05_Raster1_GDAL_rasterio_LS8/README.md)
+6. [Vector 2: Geometries, Spatial Operations, Visualization](modules/06_Vector2_Geometries_SpatialOps_Viz/README.md)
+7. [Raster 2: Warping, Clipping, Sampling, DEM Analysis](modules/07_Raster2_DEMs_Warp_Clip_Sample/README.md)
+8. [Vector time series, SNOTEL data](modules/08_Vector_TimeSeries_SNOTEL/README.md)
+9. [ND arrays, xarray, ERA5 climate reanalysis data](modules/09_NDarrays_xarray_ERA5/README.md)
+10. [Pangeo, Dask, conda](modules/10_Conda_Dask_rioxarray_etc/README.md)
 
 ## Try it!
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/uwgda-image-2021/main?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_course_2021%26amp%3Bbranch=master%26amp%3Burlpath=lab)
@@ -53,15 +55,17 @@ Clicking this badge will launch the GDA image and Jupyterlab environment on [myb
 
 ### Reproducing locally
 1. Download all course materials: `git clone https://github.com/UW-GDA/gda_course_2021.git`
-2. See the [Week 10 materials](./modules/10_Conda_Pangeo_Dask) for instructions on how to set up your local environment to run the notebooks. Or, if you're already familiar with conda, here are the environment files:
+2. See the [Week 10 materials](modules/10_Conda_Dask_rioxarray_etc/README.md) for instructions on how to set up your local environment to run the notebooks. Or, if you're already familiar with conda, here are the environment files:
    * [uwgda2020](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment.yml) (pinned version numbers)
 3. Notebooks should have instructions/code to download all necessary data
 
 ## Course details
+
 ### Syllabus (UW netid required)
 https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/edit?usp=sharing
 
 ### Structure
+
 #### Weekly workflow:
 * Students independently complete online reading assignments or work through tutorials prior to lab
 * One remote, synchronous 1-hour lecture on Wednesday afternoon
@@ -75,17 +79,17 @@ https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/
    * Students finish exercises (and "extra credit" challenge problems) for homework (due the following week)
 
 * Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
-* See weekly workflow document in instructor and student [resources](resources) for technical details
+* See weekly workflow document in instructor and student for technical details
 
 #### [Final Project](resources/project/README.md)
 * Students propose, refine, perform and present independent or group projects
 * Final deliverables: Github repository and ~10 minute presentation
 
-### [Resources for students](resources/students)
+### [Resources for students](resources/students/README.md)
 * Most current resources are intended for students enrolled in the class at the University of Washington
 * I am planning to prepare additional resources for students attempting independent self-study, or those who are attempting individual modules rather than the full 10-week course (see syllabus for additional thoughts on philosophy and time commitment). The reality is that the exercises each week build on skills developed in previous weeks.
 
-### [Resources for instructors](resources/instructors)
+### [Resources for instructors](resources/instructors/README.md)
 * I've started compiling resources, notes and recommendations for others who are or will be teaching similar material (or using similar approaches).
 * If you find this content useful, please consider contributing upstream corrections, modifications or suggestions.
 
