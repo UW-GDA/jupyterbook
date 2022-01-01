@@ -1,4 +1,4 @@
-# Geospatial Data Analysis Final Project
+# Final Project
 
 UW Geospatial Data Analysis  
 CEE498/CEWA599  
