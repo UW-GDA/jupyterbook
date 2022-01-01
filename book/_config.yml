@@ -1,9 +1,9 @@
 # Book settings
 # Learn more at https://jupyterbook.org/customize/config.html
 
-title: University of Washington Geospatial Data Analysis with Python
-author: The Jupyter Book Community
-logo: logo.png
+title: Geospatial Data Analysis with Python
+author: David Shean
+logo: UW_GDA_logo_pad.jpg
 
 # Force re-execution of notebooks on each build.
 # See https://jupyterbook.org/content/execute.html
