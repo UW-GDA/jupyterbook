@@ -1,6 +1,6 @@
 # Geospatial Data Analysis with Python
 
-Course material from the Winter 2022 offering at the University of Washington (CEE498/CEWA599)  
+Course material from the Winter 2022 offering of CEE498/CEWA599 at the University of Washington
 
 David Shean  
 Civil and Environmental Engineering  
