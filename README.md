@@ -6,8 +6,8 @@ https://uwgda-jupyterbook.readthedocs.io
 
 ## local development
 ```
-mamba create -n uwgdabook jupyter-book pre-commit
-mamba activate uwgdabook
+conda create -n uwgdabook jupyter-book pre-commit
+conda activate uwgdabook
 pre-commit install
 ```
 
