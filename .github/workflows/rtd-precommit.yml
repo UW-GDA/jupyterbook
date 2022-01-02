@@ -19,12 +19,8 @@ jobs:
       id: changed-files
       uses: tj-actions/changed-files@v12.2
 
-<<<<<<< Updated upstream
-    - name: Convert _config.yml to conf.py
-=======
     - name: Check for conf.py
       id: check
->>>>>>> Stashed changes
       if: contains(steps.changed-files.outputs.modified_files, 'book/conf.py') != true
       run: |
         echo "jupyterbook _config.yml modified, but need Sphinx conf.py for read-the-docs"
