@@ -1,4 +1,4 @@
-# Exercises
+# Lab01 Exercises
 UW Geospatial Data Analysis  
 CEE498/CEWA599  
 David Shean  
@@ -11,7 +11,7 @@ You will almost certainly need to search for tips on how to answer some of these
 
 OK, let's get started!
 
-## Look it up in the dictionary
+## Part 1: Look it up in the dictionary
 
 On your Unix/Linux filesystem, you typically have a dictionary of words (https://en.wikipedia.org/wiki/Words_(Unix)).  On OS X, this file is located in `/usr/share/dict/words`
 
@@ -34,7 +34,7 @@ This file is missing from our barebones JupyterHub Linux distribution, so I adde
 12. How many have the same prefix?
     * Hint: replace "ologist" with "ology", then count number of duplicate lines.
 
-## Inspect and manipulate tabular data
+## Part 2: Inspect and manipulate tabular data
 
 The text file `GLAH14_tllz_conus_lulcfilt_demfilt.csv` contains processed/filtered records from ICESat satellite laser altimetry measurements over the Western U.S. between 2003 and 2009. Don't worry about details for now, we will explore in the coming weeks. For now, pretend your advisor/boss just sent you this random file (with no metadata) and asked you to inspect and clean up for their old-school analysis tools.
 
@@ -54,7 +54,7 @@ The text file `GLAH14_tllz_conus_lulcfilt_demfilt.csv` contains processed/filter
        * Redirect that output to a new file
        * Run a quick `head` and `tail` on the output file to verify
 
-# Extra Credit: Shell script
+## Extra Credit: Shell script
 Create and run a script to answer the following question:
 
 *How many words begin with each letter of the alphabet (case-insensitive)?*
@@ -79,10 +79,10 @@ Create and run a script to answer the following question:
 5. Run it! `./myawesomescript.sh words`
 6. Review the output `more words_lettercount.txt`
 
-# Submission
-*We will review this process during our first lab*
+## Submission
+*We will review this process during Friday lab*
 1. Use `git add` to stage each new file containing your answers/scripts
     * I recommend you start by adding files one at a time: `git add myawesomescript.sh`
     * For now, resist the temptation to `git add .` or `git commit -a`, as you will inevitably include files that don't belong in a git repo.
-2. Use `git commit -m "I did it!"` to commit these changes, replacing "I did it!" with an appropriate commit message.
+2. Use `git commit -m "Message"` to commit these changes, replacing "Message" with an appropriate commit message.
 3. Use `git push` to push your local changes to your remote repo origin on Github
