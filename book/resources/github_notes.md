@@ -12,7 +12,7 @@ Additional UW eScience Hackweek resources on initial Github setup and navigation
 * https://snowex-hackweek.github.io/website/preliminary/git.html
 
 ## First time login
-*Replace the following with your name and the email you used to create your Github account*
+*Replace the following with your name and the email you used to create your Github account*  
 `git config --global user.name "Matt Damon"`  
 `git config --global user.email "email@example.com"`
 
@@ -24,6 +24,8 @@ As of August 2021, Github disabled using passwords for remote command line acces
     * Step 6: Name the token "GDA Jupyterhub"
     * Step 7: Set expiration to "Never"
     * Step 8: Check permission boxes for `repo`, `workflow` and `delete_repo`
+    * Copy the code and store in a safe location (e.g., password manager, keychain)
+* When using git on the course Jupyterhub, enter your code when prompted to enter a Github password (e.g., when pushing to a remote repo)
 
 #### Two-factor authentication (2FA)
 In past years, enabling 2FA led to issues with authentication using the terminal on the course Jupyterhub. This may be resolved with updated PAT authentication requirements.
@@ -31,10 +33,10 @@ In past years, enabling 2FA led to issues with authentication using the terminal
 * If you're using an existing Github account and previously enabled two-factor authentication, you may need to disable 
 
 ### Store credentials
-*So you don't have to enter github username and password each time you push*  
+*So you don't have to enter github username and PAT each time you push to a remote repo*  
 
 #### Store credentials for 15 minutes (900 seconds)
-`git config --global credential.helper 'cache --timeout=900'`
+`git config --global credential.helper 'cache --timeout=900'`  
 `chmod 0700 /home/jovyan/.cache/git/credential`
 
 #### Store permanently
