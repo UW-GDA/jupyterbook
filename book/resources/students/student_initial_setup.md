@@ -8,7 +8,7 @@
     * I recommend you apply for the free edu account upgrade (https://education.github.com/discount_requests/new), which will allow you to create unlimited number of private repos with unlimited collaborators.
     * You will need to join the UW-GDA Github Organization (https://github.com/UW-GDA), see instructions below.
     * If all of this is new, don’t worry, we will walk through basic workflows during the first lecture/lab, and you will become more familiar in the coming weeks.
-1. Accept the "Github Starter Course" assignment: https://classroom.github.com/a/wDwaAhFW
+1. Accept the "Github Starter Course" assignment (see Slack for link) 
     * Find your name and link your Github account to the Github Classroom roster
     * This should automatically invite you to join the UW-GDA Organization
     * If this doesn't work:

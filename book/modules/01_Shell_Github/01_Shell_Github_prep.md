@@ -16,7 +16,7 @@ We are going to “flip the classroom” for the first two weeks. Before class, 
 * Fill out the background questionnaire (access with UW Google account): https://forms.gle/MVdoybdFCaPBYC58A
     * Don't overthink this, it shouldn't take more than 5-10 minutes to fill out!
 * Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
-* Review the course [Code of Conduct](../../code_of_conduct.md) document.
+* Review the course [Code of Conduct](../../resources/code_of_conduct.md) document.
 * Attempt to log on to the course Jupyterhub (see Slack for link) 
     * This is the computing environment we will use for the quarter
     * We will review this interface during lab, but feel free to start exploring
