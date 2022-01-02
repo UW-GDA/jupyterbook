@@ -10,6 +10,8 @@ on:
 jobs:
   check_conf_py:
     runs-on: ubuntu-20.04
+    outputs:
+      missing_conf: ${{ steps.check.outputs.missing_conf }}
     steps:
     - uses: actions/checkout@v2
 
@@ -17,10 +19,11 @@ jobs:
       id: changed-files
       uses: tj-actions/changed-files@v12.2
 
-    - name: Convert _config.yml to conf.py
-      if: contains(steps.changed-files.outputs.modified_files, "conf.py") == false
+    - name: Check for conf.py
+      id: check
+      if: contains(steps.changed-files.outputs.modified_files, 'book/conf.py') != true
       run: |
-        echo "Converting jupyterbook _config.yml to sphinx conf.py for read-the-docs"
+        echo "jupyterbook _config.yml modified, but need Sphinx conf.py for read-the-docs"
         echo "::set-output name=missing_conf::true"
 
   commit_conf_py:
@@ -28,6 +31,8 @@ jobs:
     runs-on: ubuntu-20.04
     if: ${{needs.check_conf_py.outputs.missing_conf}}
     steps:
+    - uses: actions/checkout@v2
+    
     - uses: actions/setup-python@v2
       with:
         python-version: '3.9'
