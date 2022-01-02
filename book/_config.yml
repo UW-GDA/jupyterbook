@@ -13,6 +13,9 @@ exclude_patterns: [_build, Thumbs.db, .DS_Store, "**.ipynb_checkpoints"]
 execute:
   execute_notebooks: 'off'
 
+launch_buttons:
+  binderhub_url: ''
+
 # Define the name of the latex output file for PDF builds
 latex:
   latex_documents:
