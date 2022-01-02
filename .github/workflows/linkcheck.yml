@@ -18,4 +18,4 @@ jobs:
 
     - name: Check External Links
       run: |
-        jupyter-book build docs/ --builder linkcheck
+        jupyter-book build book/ --builder linkcheck

@@ -27,7 +27,7 @@ jobs:
     needs: check_conf_py
     runs-on: ubuntu-20.04
     if: ${{needs.check_conf_py.outputs.missing_conf}}
-
+    steps:
     - uses: actions/setup-python@v2
       with:
         python-version: '3.9'
