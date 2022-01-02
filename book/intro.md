@@ -5,7 +5,7 @@ Course material from the Winter 2022 offering of CEE498/CEWA599 at the Universit
 David Shean  
 Civil and Environmental Engineering  
 University of Washington  
-https://dshean.github.io  
+https://uw-cryo.github.io  
 
 ## Overview
 This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. We will explore fundamental concepts and real-world data science applications involving a variety of geospatial datasets.
@@ -15,20 +15,20 @@ This course explores geospatial data processing, analysis, interpretation, and v
 - Learn how to programatically answer real-world remote sensing and GIS questions (and how to ask new questions)
 - Query and process geospatial data on-the-fly, without manual downloads
 - Limited emphasis on machine learning, but some examples scattered throughout labs (e.g., K-means clustering)
-- Examples focus on Washington state and Western U.S.
+- Examples focus on Washington state and Western U.S., with applications in snow hydrology and other CEE disciplines
 
 ## Samples
 
 **ICESat satellite laser altimetry data over Western U.S. (modules 3-4, 6)**
-![ICESat points](./resources/sample_img/glas_combined.png)
+![ICESat points](./resources/sample_img/glas_combined.png)  
 **Estimating snow-covered area for Mt. Rainier from Landsat-8 multi-spectral satellite imagery (module 5)**
-![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)
+![Rainer LS8 Snowcover](./resources/sample_img/rainier_LS8_snowcover.png)  
 **Raster DEM analysis to estimate impacts of sea level rise and hazards near WA highways (module 7)**
 ![whidbey_slr](./resources/sample_img/whidbey_slr.png)
-![WA highways](./resources/sample_img/wa_highways.png)
+![WA highways](./resources/sample_img/wa_highways.png)  
 **Western U.S. SNOTEL station analysis (module 8)**
 ![Rainier SNOTEL](./resources/sample_img/rainier_snotel_corr_ts.png)
-![SNOTEL perc normal](./resources/sample_img/snotel_paradise_perc_normal_westernUS.png)
+![SNOTEL perc normal](./resources/sample_img/snotel_paradise_perc_normal_westernUS.png)  
 **Global and regional climate reanalysis data (module 9)**
 ![ERA5 Climatology](./resources/sample_img/era5_climatology.png)
 ![ERA5 WA](./resources/sample_img/era5_wa_2panel.png)
@@ -45,7 +45,7 @@ The course is organized into 10 week-long modules. Each module contains backgrou
 7. [Raster 2: Warping, Clipping, Sampling, DEM Analysis](modules/07_Raster2_DEMs_Warp_Clip_Sample/README.md)
 8. [Vector time series, SNOTEL data](modules/08_Vector_TimeSeries_SNOTEL/README.md)
 9. [ND arrays, xarray, ERA5 climate reanalysis data](modules/09_NDarrays_xarray_ERA5/README.md)
-10. [Pangeo, Dask, conda](modules/10_Conda_Dask_rioxarray_etc/README.md)
+10. [Conda, dask, rioxarray](modules/10_Conda_Dask_rioxarray_etc/README.md)
 
 ## Try it!
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/uwgda-image-2021/main?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_course_2021%26amp%3Bbranch=master%26amp%3Burlpath=lab)
@@ -56,42 +56,40 @@ Clicking this badge will launch the GDA image and Jupyterlab environment on [myb
 ### Reproducing locally
 1. Download all course materials: `git clone https://github.com/UW-GDA/gda_course_2021.git`
 2. See the [Week 10 materials](modules/10_Conda_Dask_rioxarray_etc/README.md) for instructions on how to set up your local environment to run the notebooks. Or, if you're already familiar with conda, here are the environment files:
-   * [uwgda2020](https://github.com/UW-GDA/uwgda-image/blob/master/binder/environment.yml) (pinned version numbers)
+   * [uwgda2022](https://github.com/UW-GDA/uwgda-image-2022/blob/main/environment.yml) (see the conda lock file for pinned version numbers)
 3. Notebooks should have instructions/code to download all necessary data
 
 ## Course details
 
 ### Syllabus (UW netid required)
-https://docs.google.com/document/d/1uaEMqANMU9NlvH2ELkGtALQ3MlGY1U9-uCqNKz5JOqk/edit?usp=sharing
+https://docs.google.com/document/d/1fS43OpTLcobo982Ip4TWsD-m5mefPemque7uNT-wZG0/edit?usp=sharing
 
-### Structure
-
-#### Weekly workflow:
+### Weekly workflow:
 * Students independently complete online reading assignments or work through tutorials prior to lab
-* One remote, synchronous 1-hour lecture on Wednesday afternoon
+* Synchronous 1.5-hour lecture/demo/discussion on Wednesday afternoon
     * Will be recorded for students who cannot attend synchronously
-* One remote, synchronous 3-hour lab session on Friday afternoon
-    * Initial 15 minutes for students to meet and discuss lab exercises, ask questions without instructor
-    * Next 15-30 minutes logistics and some discussion around lingering questions/issues
-    * Next 30-60 minutes for introduction and demo for new material
-    * Intro, review and demo will be recorded for students who cannot attend synchronously
-    * Remainder of lab for students to work in small groups to go through lab notebook, write code, troubleshoot, talk, and try to answer discussion questions together
-   * Students finish exercises (and "extra credit" challenge problems) for homework (due the following week)
+* Synchronous 3-hour lab session on Friday afternoon
+    * Initial 5-15 minutes for students to meet and discuss previous lab exercises without instructor
+    * Next 15-30 minutes: logistics and some discussion around lingering questions/issues
+    * Next 30-60 minutes: lab introduction and demo for new material
+    * Will be recorded for students who cannot attend synchronously
+    * Remainder of lab for groups of students to work through lab materials, discuss, write code, troubleshoot, and try to complete exercises together
+* Students finish exercises (and "extra credit" challenge problems) for homework (due the following week)
 
 * Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
-* See weekly workflow document in instructor and student for technical details
+* See weekly workflow documents in Resources section for additional information
 
-#### [Final Project](resources/project/README.md)
+### [Final Project](resources/project/README.md)
 * Students propose, refine, perform and present independent or group projects
 * Final deliverables: Github repository and ~10 minute presentation
 
 ### [Resources for students](resources/students/README.md)
-* Most current resources are intended for students enrolled in the class at the University of Washington
-* I am planning to prepare additional resources for students attempting independent self-study, or those who are attempting individual modules rather than the full 10-week course (see syllabus for additional thoughts on philosophy and time commitment). The reality is that the exercises each week build on skills developed in previous weeks.
+* Intended for students enrolled in the full course at the University of Washington
+* Additional resources for students attempting independent self-study, or those who are attempting individual modules rather than the full 10-week course (see syllabus for additional thoughts on philosophy and time commitment).
 
 ### [Resources for instructors](resources/instructors/README.md)
-* I've started compiling resources, notes and recommendations for others who are or will be teaching similar material (or using similar approaches).
-* If you find this content useful, please consider contributing upstream corrections, modifications or suggestions.
+* Intended for me, TAs and others who will be teaching similar material (or using similar approaches).
+* If you find this content useful, please consider contributing upstream corrections, modifications, and/or suggestions.
 
 ### Solutions
 * The notebooks in this public repo are the "student" versions, with many empty cells and instructions for lab exercises. The completed notebooks with my solutions are archived in a private [solutions repo](https://github.com/UW-GDA/gda_w2021_solutions). Enrolled students receive access to this repo after submitting their own solutions to the lab exercises each week. I have not released the solutions publicly, as I expect future students enrolled in the course to learn "the hard way" as they work through the problems on their own. If you have independently tried to work through these notebooks and would like to compare your answers, I can potentially add you as a collaborator.
@@ -107,11 +105,12 @@ Also, the tools and methods outlined here will work for many problems, but may n
 ## Acknowledgements
 Many individuals have contributed to the content and infrastructure development required for this course:
 * First and foremost, the brave GDA students who enrolled in this course duing winter 2019 and winter 2020 provided critical feedback, suggestions and often elegant solutions to challenging problems
-* Chris Land (UW-IT) and Scott Henderson (UW eScience/ESS) provided Jupyterhub configuration and support during 2020
+* Scott Henderson (UW eScience/ESS) for leading the Jupyterhub image preparation, JupyterBook, and Github CI setup and configuration
+* Chris Land (UW-IT) and Scott Henderson (UW eScience/ESS) provided Jupyterhub configuration and support during the 2020 Pilot offering
 * Amanda Tan (UW eScience) provided Jupyterhub configuration and support during 2019
-* Bill Schaefer (UW-IT) and Rob Fatland (UW-IT/eScience) provided spport and management during 2020 and 2019, respectively
+* Bill Schaefer, Tom Lewis and Rob Fatland (UW-IT) provided management and support for the UW-IT Jupyterhub program
 * Friedrich Knuth, Shashank Bhushan, and Michelle Hu provided assistance during lab periods in 2020. Friedrich Knuth provided initial material on conda.
-* Anthony Arendt and the UW eScience Geohackweek leadership team for providing a foundation and resources for interactive education and software development
+* Anthony Arendt and the UW eScience Hackweek leadership team for providing a foundation and resources for interactive education and software development
 
 ## License
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/88x31.png" /></a><br /><span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">
@@ -119,6 +118,6 @@ The content of this repository is licensed under a <a rel="license" href="http:/
 
 ## Citation
 If you use content or code in a publication, please cite as:  
-> Shean, D. (2020), Geospatial Data Analysis with Python: Course material from the Winter 2020 offering at the University of Washington (CEE498/CEWA599), Zenodo, http://doi.org/10.5281/zenodo.3978778  
+> Shean, D. (2022), Geospatial Data Analysis with Python: Course material from the Winter 2022 offering at the University of Washington (CEE498/CEWA599), Zenodo, http://doi.org/10.5281/zenodo.3978778  
 
 If you learn from this material, or you use some of this material in a different course, please show your support by clicking the "Star" button in upper right corner of the repo page. Thanks!
