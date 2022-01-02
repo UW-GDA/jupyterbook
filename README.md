@@ -1,10 +1,11 @@
-# Prototype for JupyterBook on RTD
+# JupyterBook for UW Geospatial Data Analysis Course 
 
 [![Documentation Status](https://readthedocs.org/projects/uwgda-jupyterbook/badge/?version=latest)](https://uwgda-jupyterbook.readthedocs.io/en/latest/?badge=latest)
 
-https://uwgda-jupyterbook.readthedocs.io
+Latest web version of JupyterBook: https://uwgda-jupyterbook.readthedocs.io
 
-## local development
+## Local development (for instructors)
+
 ```
 conda create -n uwgdabook jupyter-book pre-commit
 conda activate uwgdabook
