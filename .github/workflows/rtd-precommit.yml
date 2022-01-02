@@ -18,7 +18,7 @@ jobs:
       uses: tj-actions/changed-files@v12.2
 
     - name: Convert _config.yml to conf.py
-      if: contains(steps.changed-files.outputs.modified_files, "conf.py") == false
+      if: contains(steps.changed-files.outputs.modified_files, 'book/conf.py') != true
       run: |
         echo "Converting jupyterbook _config.yml to sphinx conf.py for read-the-docs"
         echo "::set-output name=missing_conf::true"
