@@ -11,20 +11,20 @@
     * If all of this is new, don’t worry, we will walk through basic workflows during the first lecture/lab, and you will become more familiar in the coming weeks.
 1. Accept the "Github Starter Course" assignment (see Slack for link) 
     * Find your name and link your Github account to the Github Classroom roster
+    * Give the README.md in your new repo a skim - it provides a nice, high-level overview of git/Github
     * This should automatically invite you to join the UW-GDA Organization
-       * If this doesn't work:
-           * Send me a direct Slack message with your github username (do this as soon as possible)
-           * I will manually add you to UW-GDA Organization
-     * Give the README.md in your new repo a skim - it provides a nice, high-level overview of git/Github
+        * If this doesn't work:
+            * Send me a direct Slack message with your github username (do this as soon as possible)
+            * I will manually add you to UW-GDA Organization
 1. If you have not already done so, please sign up for an institutional Google account using your UW email address. This is needed to fill out Forms and View/Edit Docs. I will only enable access for UW Google accounts (not personal accounts).
 1. Attempt to log on to the course Jupyterhub (see Slack for link)
-   * This is the computing environment we will use for the quarter
-   * We will review this interface during lab, but feel free to start exploring
-   * If you have trouble logging in, send a message to the `#it_help` channel on Slack
-   * To bring up a terminal to use for the shell and git exercises:
-      * Click the "+" icon in the upper left corner of the Jupyterlab interface to bring up the Launcher
-      * Under "Other" click on the Terminal icon.
-      * This will launch a new tab with default bash shell
-      * More details: https://jupyterlab.readthedocs.io/en/stable/user/terminal.html
+    * This is the computing environment we will use for the quarter
+    * We will review this interface during lab, but feel free to start exploring
+    * If you have trouble logging in, send a message to the `#it_help` channel on Slack
+    * To bring up a terminal to use for the shell and git exercises:
+        * Click the "+" icon in the upper left corner of the Jupyterlab interface to bring up the Launcher
+        * Under "Other" click on the Terminal icon.
+        * This will launch a new tab with default bash shell
+        * More details: https://jupyterlab.readthedocs.io/en/stable/user/terminal.html
 1. **Optional**: Install/upgrade QGIS on your computer
     * [QGIS Notes](../qgis_notes.md)
