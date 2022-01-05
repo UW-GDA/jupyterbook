@@ -12,19 +12,11 @@ We are going to “flip the classroom” for the first two weeks. Before class, 
 ## Logistics - *Complete before first Wednesday lecture*
 * Review the syllabus: https://docs.google.com/document/d/1fS43OpTLcobo982Ip4TWsD-m5mefPemque7uNT-wZG0/edit?usp=sharing 
     * Access using your UW Google account, not personal Google account
-    * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions, please add comments inline, and/or come to class ready to ask questions.
+    * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions/suggestions, please add comments inline, and/or come to class ready to ask questions.
 * Fill out the background questionnaire (access with UW Google account): https://forms.gle/MVdoybdFCaPBYC58A
     * Don't overthink this, it shouldn't take more than 5-10 minutes to fill out!
-* Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
 * Review the course [Code of Conduct](../../resources/code_of_conduct.md) document.
-* Attempt to log on to the course Jupyterhub (see Slack for link) 
-    * This is the computing environment we will use for the quarter
-    * We will review this interface during lab, but feel free to start exploring
-    * If you have trouble logging in, send a message to the `#it_help` channel on Slack
-    * To bring up a terminal to use for the shell and git exercises:
-        1. Click the "+" icon in the upper left corner to bring up the Launcher
-        2. Under "Other" click on the Terminal icon.
-        3. This will launch a new tab with default bash shell
+* Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
 
 ## Reading and Tutorials - *Complete before first Friday lab*
 I recommend that you break these lessons up into a few sessions, so you have some time to digest what you’re learning (don’t attempt to get through everything an hour before lab starts). Even if you are already an expert on these topics, please take some time to work through the lessons. I guarantee that you will learn something new or will gain a better understanding of something that you’ve seen before (I certainly did).
