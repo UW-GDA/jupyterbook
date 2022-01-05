@@ -146,7 +146,7 @@ You all know each other by now, and you know that this is a friendly, open, supp
    * Share the url with others!
 
 ## Sample project ideas
-Please review examples from previous years in the UW GDA Github organization.
+Several groups and individuals from previous years made their GDA projects public within the GDA Organization (you should too!). You are encouraged to review these samples for inspiration and some guidance.
 
 ## Sample data
-See separate document: [Data Sources](./project_data_sources.md)
+[Open Data for Projects](./project_data_sources.md)

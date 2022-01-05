@@ -1,4 +1,4 @@
-# Notes, tips, tricks, gotchas and other useful information
+# Core Package Notes 
 UW Geospatial Data Analysis  
 CEE498/CEWA599  
 David Shean  
