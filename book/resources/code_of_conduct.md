@@ -47,7 +47,7 @@ representative at an online or offline event.
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be 
-reported directly to dshean@uw.edu or a direct message to @dshean on Slack. 
+reported directly to the GDA course instructor (dshean@uw.edu or a direct message to @dshean on Slack). 
 All complaints will be reviewed and investigated promptly and with respect 
 to the privacy and security of the reporter of any incident.
 
@@ -63,8 +63,9 @@ violations of UW policy for nondiscrimination can be reported anonymously
 > For support, resources, and reporting options related to sex- and gender-based
 > violence or harassment, visit [UW Title IX’s webpage][uw title ix page], specifically the [Know Your 
 > Rights & Resources guide][title ix kyr]. 
-> Please know that if you choose to disclose information to me about sex- or 
-> gender-based violence or harassment, I will connect you (or the person who 
+> 
+> Please know that if you choose to disclose information to the GDA course instructor about sex- or 
+> gender-based violence or harassment, they will connect you (or the person who 
 > experienced the conduct) with resources and individuals who can best provide 
 > support and options. You can also access those resources directly:
 > - Confidential: [Confidential advocates][confidential advocates] will not share information with others 
@@ -95,13 +96,8 @@ violations of UW policy for nondiscrimination can be reported anonymously
 ## Enforcement Responsibilities & Guidelines
 
 In order to maintain a safe and welcoming environment, when violations of our 
-standards occur, I reserve the right to take appropriate corrective action. 
-I will communicate reasons for moderation decisions when appropriate. 
-Corrective actions include but are not limited to:
-- some 
-- examples
-- here
-- remove edits, comments, code, slack messages that are not alligned with this code of conduct
+standards occur, the GDA course instructor reserves the right to take appropriate corrective action, 
+and will communicate reasons for moderation decisions when appropriate. 
 
 ## Attribution
 
