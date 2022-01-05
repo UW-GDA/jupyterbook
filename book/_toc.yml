@@ -6,6 +6,7 @@ root: intro
 parts:
   - caption: Resources
     chapters:
+    - file: resources/syllabus.md
     - file: resources/students/README
       sections:
       - file: resources/students/student_initial_setup.md
@@ -19,7 +20,13 @@ parts:
       sections:
       - file: resources/github_notes.md
       - file: resources/jupyter_notes.md
+      - file: resources/conda.md
+      - file: resources/core_package_notes.md
+      - file: resources/qgis_notes.md
+      - file: resources/jupyterhub_migration.md
     - file: resources/project/README
+      sections:
+      - file: resources/project/project_data_sources.md
     - file: resources/code_of_conduct.md
 
   - caption: Modules
