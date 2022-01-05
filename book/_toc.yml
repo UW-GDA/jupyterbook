@@ -20,6 +20,7 @@ parts:
       - file: resources/github_notes.md
       - file: resources/jupyter_notes.md
     - file: resources/project/README
+    - file: resources/code_of_conduct.md
   - caption: Modules
     chapters:
     - file: modules/01_Shell_Github/README
