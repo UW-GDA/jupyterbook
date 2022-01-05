@@ -94,13 +94,10 @@ violations of UW policy for nondiscrimination can be reported anonymously
 
 ## Enforcement Responsibilities & Guidelines
 
-I am responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior deemed inappropriate, threatening, offensive, 
-or harmful. I will communicate reasons for moderation decisions when appropriate. 
 In order to maintain a safe and welcoming environment, when violations of our 
-standards occur, I reserve the right to take corrective actions including but not 
-limited to:
+standards occur, I reserve the right to take appropriate corrective action. 
+I will communicate reasons for moderation decisions when appropriate. 
+Corrective actions include but are not limited to:
 - some 
 - examples
 - here
