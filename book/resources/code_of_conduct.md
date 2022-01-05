@@ -44,18 +44,6 @@ Examples of representing our community include using an official e-mail address,
 posting via an official social media account, or acting as an appointed
 representative at an online or offline event.
 
-## Enforcement Responsibilities
-
-Community leaders are responsible for clarifying and enforcing our standards of
-acceptable behavior and will take appropriate and fair corrective action in
-response to any behavior that they deem inappropriate, threatening, offensive, 
-or harmful.
-
-Community leaders have the right and responsibility to remove, edit, or reject
-comments, commits, code, wiki edits, issues, and other contributions that are
-not aligned to this Code of Conduct, and will communicate reasons for moderation
-decisions when appropriate.
-
 ## Enforcement
 
 Instances of abusive, harassing, or otherwise unacceptable behavior may be 
@@ -104,13 +92,19 @@ violations of UW policy for nondiscrimination can be reported anonymously
 >
 > Related policies: https://www.washington.edu/titleix/policies/
 
-## Enforcement Guidelines
+## Enforcement Responsibilities & Guidelines
 
-In order to maintain a safe and welcoming environment, when violations of our standards occur, I reserve the right 
-to take corrective actions including but not limited to:
+I am responsible for clarifying and enforcing our standards of
+acceptable behavior and will take appropriate and fair corrective action in
+response to any behavior deemed inappropriate, threatening, offensive, 
+or harmful. I will communicate reasons for moderation decisions when appropriate. 
+In order to maintain a safe and welcoming environment, when violations of our 
+standards occur, I reserve the right to take corrective actions including but not 
+limited to:
 - some 
 - examples
 - here
+- remove edits, comments, code, slack messages that are not alligned with this code of conduct
 
 ## Attribution
 
