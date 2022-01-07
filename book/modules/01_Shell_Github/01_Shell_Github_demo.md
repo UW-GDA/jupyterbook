@@ -134,8 +134,8 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 
 # Introduce assignment
 * `more words`
+* `more GLAH14_tllz_conus_lulcfilt_demfilt.csv`
 * `file words`
 * How are we going to count the number of words? Online search term discussion
     * `wc -l words`
 * How to submit answers: create a new text file, copy your command and output to a new text file
-* `more GLAH14_tllz_conus_lulcfilt_demfilt.csv`
