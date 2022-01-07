@@ -5,21 +5,27 @@ David Shean
 
 ## Introduction
 
-Let’s play around with some text files to explore the power of the command line and bash shell.  For the following instructions/questions, please document the command you ran, and the resulting output on the terminal. You can copy and paste these in a text file, or use whatever method is most efficient. If you would prefer to wrap everything into a single shell script, and submit that, go for it.
+Let’s play around with some text files to explore the power of the command line and bash shell.  
 
-You will almost certainly need to search for tips on how to answer some of these questions. Please use these resources, but if you find an explicit solution, don't just copy and paste the code, review it and try to understand what is actually happening. Note that Stack Overflow and other forums will have excellent information (and probably a lot of advanced information that is over your head) - typically the answer you're looking for has the most "upvotes" (number to the left of the answer) or some kind of indication as the "accepted answer."
+For the following instructions/questions, please document the command you ran, and the resulting output on the terminal. You can copy and paste everything in a text file, or use whatever method is most efficient. Maybe you want to practice markdown formatting, or if you would prefer to wrap everything into a single shell script, and submit that, go for it.
+
+You will almost certainly need to search for tips on how to answer some of these questions. Please use these external resources, but if you find an explicit solution, don't just copy and paste the code, review it and try to understand what is actually happening. Note that Stack Overflow and other forums will have excellent information (and probably a lot of advanced information that is over your head) - typically the answer you're looking for has the most "upvotes" (number to the left of the answer) or some kind of indication as the "accepted answer."
 
 OK, let's get started!
 
 ## Part 1: Look it up in the dictionary
+On your Unix/Linux filesystem, you typically have a dictionary of words (https://en.wikipedia.org/wiki/Words_(Unix)).  On OS X, this file is located in `/usr/share/dict/words`. This file is missing from our barebones JupyterHub Linux distribution, so I added one to the assignment git repo (2.4 MB).
 
-On your Unix/Linux filesystem, you typically have a dictionary of words (https://en.wikipedia.org/wiki/Words_(Unix)).  On OS X, this file is located in `/usr/share/dict/words`
-
-This file is missing from our barebones JupyterHub Linux distribution, so I added one to the assignment git repo (2.4 MB).
+### Unzip `words`
+Fortunately for you, the basic linux operating system we've provided includes command-line utilities to unzip files. Navigate to the directory containing the data:
+```
+unzip gda_2021_data.zip
+```
+This should create a new `data` subdirectory, with two new files. Check them out with `ls -l data`
 
 ### Inspect `words`
-1. The `words` file has no extension. What type of file is this? (Hint: try `man file` to bring up man page on the `file` command)
-2. Inspect the file `more words` (hit q to quit).  Should see one word per line.
+1. The `words` file has no extension. What type of file is this? (Hint: check out the `file` command)
+2. Inspect the file `more words` (hit q to quit).  Should see one word per line. (no response needed)
 3. How many words are in this file?
 4. How many characters?
 5. How big is the file size in bytes?
