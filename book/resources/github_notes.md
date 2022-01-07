@@ -43,7 +43,16 @@ In past years, enabling 2FA led to issues with authentication using the terminal
 `git config --global credential.helper store`
 
 ## Git workflows
-
+### Clone remote repository
+1. Open repository webpage
+1. Click big green "Code" button
+1. Select HTTPS and copy link
+1. On course Jupyterhub, open a terminal
+1. Navigate to the directory containing assignments (`cd labs`)
+```
+git clone [paste https link]
+cd [repo name]
+```
 ### Basic with remote 
 ```
 git pull
@@ -51,12 +60,12 @@ git add myfile.py
 git commit -m 'Added myfile.py'
 git push
 ```
-### Basic branching 
+### Basic branching (local)
 https://git-scm.com/book/en/v2/Git-Branching-Basic-Branching-and-Merging
 ```
 git checkout -b newbranch
-git add .
-git commit -m 'Made some changes'
+git add updated_file.py
+git commit -m 'Fixed typo in updated_file.py'
 git checkout main
 git merge newbranch
 git checkout -d newbranch
