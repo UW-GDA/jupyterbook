@@ -69,7 +69,7 @@ These will have different priveleges, and can be selectively assigned to repos i
 1. Upload list of student names, email or github usernames 
 
 ## Jupyterhub
-See Initial Setup section in general [Jupyter Notes](../jupyter_notes.md)
+See Initial Setup section in general [Jupyter Notes](../jupyter.md)
 
 ## ReviewNB
 * https://github.com/marketplace/review-notebook-app

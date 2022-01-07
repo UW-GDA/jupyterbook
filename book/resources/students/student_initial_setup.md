@@ -27,4 +27,4 @@
         * This will launch a new tab with default bash shell
         * More details: https://jupyterlab.readthedocs.io/en/stable/user/terminal.html
 1. **Optional**: Install/upgrade QGIS on your computer
-    * [QGIS Notes](../qgis_notes.md)
+    * [QGIS Notes](../qgis.md)

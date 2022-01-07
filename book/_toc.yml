@@ -18,11 +18,12 @@ parts:
       - file: resources/instructors/instructor_lessons_learned.md
     - file: resources/README
       sections:
-      - file: resources/github_notes.md
-      - file: resources/jupyter_notes.md
+      - file: resources/github.md
+      - file: resources/jupyter.md
+      - file: resources/shell.md
       - file: resources/conda.md
-      - file: resources/core_package_notes.md
-      - file: resources/qgis_notes.md
+      - file: resources/core_packages.md
+      - file: resources/qgis.md
       - file: resources/jupyterhub_migration.md
     - file: resources/project/README
       sections:
