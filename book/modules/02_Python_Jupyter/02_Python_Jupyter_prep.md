@@ -59,7 +59,7 @@ If all of this is too basic (or you’re curious), try one or more of the follow
 
 ## Assignment: due next Friday before lab
 * Complete the above reading
-* Fill out this form: https://forms.gle/JgZU3F5N321n3huF9
+* Fill out this form: https://forms.gle/8sAoq4wgbxN6QiPq6 
 * Finish and turn in the lab exercises from last week
 
 ## Additional resources
