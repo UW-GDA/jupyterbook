@@ -19,29 +19,18 @@
 1. Discuss questions and issues with others during lab and on Slack
 1. Rember to `git add` and `git commit` your modified files as you make progress to record "checkpoints" in your work
 
-### Important Notes on Assignments
-#### Completing the lab exercises is not a race!
-   * Take your time as you work through these in groups and for homework. 
-   * Read the background information and instructions, follow links to documentation, read or at least skim some of the external resources. 
-   * Try to work toward improving your understanding rather than rushing to find an answer to all questions as quickly as possible. 
-* Following instructions vs. thinking and coming up with your own solution
-   * I’ve spent a fair amount of time attempting to prepare instructions that are clear and at the right level (offering hints, but not telling you exactly what to do).
-   * I update, correct and improve the instructions every year based on student questions and common sticking points.
-   * I really appreciate it when people ask for clarification, offer suggestions, fixes for typos, etc.
-#### Sanity checks
-   * As you work, remember to include periodic sanity checks.
-   * It’s relatively easy to produce a plot or calculate a number, but try to stop and ask yourself if it actually makes sense based on what you expect and general knowledge.  
-   * For example, several students had latitude and longitude backwards on initial plots in Lab 03 (a common mistake, one that I still occasionally make).  When you make a plot, check axes, and ask yourself, is it possible to have points at a latitude of -125°? (ah, no, as this exceeds -90° latitude at the south pole)
-#### Sample code and output
-   * When preparing the exercises notebooks, I remove most of the code, but I preserve a subset of plots and other output.
-   * These are intended to serve as a guide, help you check your own output, and keep you on the right track - not a substitute for doing your own sanity checks.
-   * These are not the “correct” answer or a plot that you must reproduce! Many are quick plots that I generated using personal preferences/habits, and they can contain mistakes or other issues that should be fixed.  
-   * Rather than reproduce sample output, try to create plots/output that you think offers the best answer or visualization for the task/question. Better yet, make a plot that improves upon what I included! 
-   * And if your answer differs from mine, but you are confident, back it up with some justification. You’re probably right! You’re all smart and collectively will notice things that I missed, and I will gladly update the solutions notebook to avoid confusion in future years. Thanks!
-#### Getting help
-   * If you’re confused or uncertain about something, please ask! 
-   * Post questions or comments on the relevant Slack channel for the lab (e.g., #lab03)
-   * I really appreciate it when people follow up because they genuinely want to understand something, rather than just producing some output and quickly moving on to the next question (though I understand there’s only so much time, and lots of content).
+## Getting help
+When you're confused or stuck, don't despair! Try the following:
+   1. See if you can find a solution on the internet (e.g., StackOverflow)
+       * If dealing with an unfamiliar error message, try copying the message and pasting in Google search
+       * Make sure to remove any filenames, variable names, or other values specific to your case, just include core error message
+   2. If the issue comes up during lab, consult with your neighbor or others in your group.
+   3. If everyone is stumped, raise your hand (or ping on Zoom/Slack) and instructor or TA will help.
+   4. Outside of lab, post questions on the Slack channel for the week (e.g., #03)
+       * Please include a description of what you tried, what you observed, and either include a screenshot showing the error/output, and/or copy output and paste as a code block on Slack (can create with '>' character)
+       * If you haven't received a response from someone within 24 hours, send a Slack message in the same thread with a Mention (@ symbol followed by username) for the instructor and TA
+
+Note: I really appreciate it when people follow up because they genuinely want to understand something, rather than just producing some output and quickly moving on to the next question (though I understand there’s only so much time, and lots of content).
 
 ## Submitting Completed Assignments
 ### 1. Prepare Jupyter notebook for submission
@@ -86,3 +75,26 @@
 
 ### 6. Merge the Pull Request on Github
 * This won't change anything for your submission, but it indicates to the TA/instructor that you reviewed the feedback, and interactive discussion is complete.
+
+## Important Notes on Assignments
+
+### Completing the lab exercises is not a race!
+   * Take your time as you work through these in groups and for homework. 
+   * Read the background information and instructions, follow links to documentation, read or at least skim some of the external resources. 
+   * Try to work toward improving your understanding rather than rushing to find an answer to all questions as quickly as possible. 
+* Following instructions vs. thinking and coming up with your own solution
+   * I’ve spent a fair amount of time attempting to prepare instructions that are clear and at the right level (offering hints, but not telling you exactly what to do).
+   * I update, correct and improve the instructions every year based on student questions and common sticking points.
+   * I really appreciate it when people ask for clarification, offer suggestions, fixes for typos, etc.
+
+### Sanity checks
+   * As you work, remember to include periodic sanity checks.
+   * It’s relatively easy to produce a plot or calculate a number, but try to stop and ask yourself if it actually makes sense based on what you expect and general knowledge.  
+   * For example, several students had latitude and longitude backwards on initial plots in Lab 03 (a common mistake, one that I still occasionally make).  When you make a plot, check axes, and ask yourself, is it possible to have points at a latitude of -125°? (ah, no, as this exceeds -90° latitude at the south pole)
+
+### Sample code and output
+   * When preparing the exercises notebooks, I remove most of the code, but I preserve a subset of plots and other output.
+   * These are intended to serve as a guide, help you check your own output, and keep you on the right track - not a substitute for doing your own sanity checks.
+   * These are not the “correct” answer or a plot that you must reproduce! Many are quick plots that I generated using personal preferences/habits, and they can contain mistakes or other issues that should be fixed.  
+   * Rather than reproduce sample output, try to create plots/output that you think offers the best answer or visualization for the task/question. Better yet, make a plot that improves upon what I included! 
+   * And if your answer differs from mine, but you are confident, back it up with some justification. You’re probably right! You’re all smart and collectively will notice things that I missed, and I will gladly update the solutions notebook to avoid confusion in future years. Thanks!
