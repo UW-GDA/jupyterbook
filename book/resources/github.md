@@ -77,10 +77,23 @@ git checkout -d newbranch
 `git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit`  
 *Note: Can add as alias to ~/.gitconfig file*
 
-
 ### Should I git clone via https or ssh?
 * Default is https, requires authentication with Github username and password
 * Can also set up ssh keys on Jupyterhub, if that doesn't sound intimidating
+
+### Why are a bunch of random files added to my repo?
+* You probably ran `git add .` or `git add -A` rather than adding individual files `git add newscript.py notebook.ipynb`
+* https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
+* You may not have a `.gitignore` for the repo
+    * https://git-scm.com/docs/gitignore
+    * Python template: https://github.com/github/gitignore/blob/main/Python.gitignore
+
+### Should I store data in the git repo?
+* A few small files or test data are great, even better if they are text data or some other non-binary format
+* Large data files do not belong in the repo, store them externally and fetch dynamically
+    * Zenodo, UW Library, Amazon S3 or Google Cloud Storage bucket, some other public data archive
+* Do you need to track changes to the data files?
+* https://docs.github.com/en/repositories/working-with-files/managing-large-files
 
 ### Issues with large notebooks (>5-10 MB) rendering on Github
 *May no longer be relevant*
