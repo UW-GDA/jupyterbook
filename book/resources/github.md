@@ -29,12 +29,9 @@ As of August 2021, Github disabled using passwords for remote command line acces
     * *NOTE: when you paste the code, it will be hidden and remain blank! Hit enter to accept after pasting* 
 
 ### Store credentials
-*So you don't have to enter github username and PAT each time you push to a remote repo*  
+*So you don't have to enter github username and PAT each time you pull or push to a remote repo*  
 
-#### Set permisisons cached credentials
-
-
-#### Store permanently
+#### Permanently
 1. Run this once:  
 `git config --global credential.helper store`
 1. You may receive a warning about loose permissions the first time you `git pull`.  To prevent this:  
