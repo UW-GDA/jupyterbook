@@ -29,23 +29,24 @@ https://jakevdp.github.io/PythonDataScienceHandbook/. You should have previously
 * Work through some of the interactive examples, and explore new concepts (don't just shift-Enter as quickly as possible)
 * The section on Machine Learning with Scikit-Learn is also great, but not required for this course
 
-### (Optional) Matplotlib Doc
-* https://matplotlib.org/3.1.1/tutorials/introductory/usage.html
+### (Optional) Official Quickstart/Doc
+*Skip any installation instructions*
+#### Pandas
+* https://pandas.pydata.org/docs/user_guide/10min.html
+* https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
+#### Matplotlib
+* https://matplotlib.org/stable/tutorials/introductory/usage.html
    * Can skip the "interactive" mode
-* https://github.com/matplotlib/cheatsheets
+* https://matplotlib.org/cheatsheets/cheatsheets.pdf
+   * See other handouts: https://github.com/matplotlib/cheatsheets
+#### NumPy
+* https://numpy.org/doc/stable/user/absolute_beginners.html
+* https://numpy.org/doc/stable/user/quickstart.html
 
 ## Assignment (due Friday)
 * Complete above reading/tutorials
-* Fill out the following form: https://forms.gle/gsWJTKMDoCmzCyaNA
-* Review the final project document: https://github.com/UW-GDA/gda_course_2021/tree/master/resources/project
-    * Spend some time this week thinking about potential project ideas
-    * Come prepared on Friday to discuss ideas during breakouts with other students
+* Fill out the following feedback form: https://forms.gle/f5Tz2cYjZoVMDMDo7
+* Review [Final Project](../../resources/project/README.md) information
+    * Start thinking about potential project ideas
+    * Come prepared on Friday to share an idea or two during breakouts with other students
 * Finish and turn in the lab exercises from last week (due midnight on Friday)
-
-## Other Resources
-* Feel free to search for "learn NumPy" or "learn Pandas" as there are many excellent resources on the web
-* Below are the "quickstart" versions offered by each project:
-  * https://numpy.org/doc/stable/user/quickstart.html
-  * https://pandas.pydata.org/pandas-docs/stable/user_guide/10min.html
-  * https://pandas.pydata.org/Pandas_Cheat_Sheet.pdf
-  * https://matplotlib.org/tutorials/introductory/pyplot.html
