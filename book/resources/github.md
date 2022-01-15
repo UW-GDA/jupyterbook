@@ -26,21 +26,32 @@ As of August 2021, Github disabled using passwords for remote command line acces
     * Step 8: Check permission boxes for `repo`, `workflow` and `delete_repo`
     * Copy the code and store in a safe location (e.g., password manager, keychain)
 * When using git on the course Jupyterhub, enter your code when prompted to enter a Github password (e.g., when pushing to a remote repo)
-
-#### Two-factor authentication (2FA)
-In past years, enabling 2FA led to issues with authentication using the terminal on the course Jupyterhub. This may be resolved with updated PAT authentication requirements.
-* Should be disabled by default (for new accounts)
-* If you're using an existing Github account and previously enabled two-factor authentication, you may need to disable 
+    * *NOTE: when you paste the code, it will be hidden and remain blank! Hit enter to accept after pasting* 
 
 ### Store credentials
 *So you don't have to enter github username and PAT each time you push to a remote repo*  
 
-#### Store credentials for 15 minutes (900 seconds)
-`git config --global credential.helper 'cache --timeout=900'`  
-`chmod 0700 /home/jovyan/.cache/git/credential`
+#### Set permisisons cached credentials
+
 
 #### Store permanently
+1. Run this once:  
 `git config --global credential.helper store`
+1. You may receive a warning about loose permissions the first time you `git pull`.  To prevent this:  
+`chmod 0700 /home/jovyan/.cache/git/credential`
+1. Enter credentials one additional time:  
+`git pull` (Should prompt for username)
+1. [Enter username and PAT]
+1. The next time you run a git command requiring remote origin, no username/password required!  
+`git pull` (Should say "Already up to date.")
+
+#### Store credentials for 15 minutes (900 seconds) without reauthenticating
+`git config --global credential.helper 'cache --timeout=900'`
+
+### Two-factor authentication (2FA)
+In past years, enabling 2FA led to issues with authentication using the terminal on the course Jupyterhub. This may be resolved with updated PAT authentication requirements.
+* Should be disabled by default (for new accounts)
+* If you're using an existing Github account and previously enabled two-factor authentication, you may need to disable 
 
 ## Git workflows
 ### Clone remote repository
