@@ -40,7 +40,9 @@ parts:
     - file: modules/02_Python_Jupyter/README
       sections:
       - file: modules/02_Python_Jupyter/02_Python_Jupyter_prep
-      - file: modules/02_Python_Jupyter/02_Python_Jupyter_demo
+      - file: modules/02_Python_Jupyter/02_Intro_Jupyter_Notebook
+      - file: modules/02_Python_Jupyter/02_Intro_iPython
+      - file: modules/02_Python_Jupyter/02_Python_demo
       - file: modules/02_Python_Jupyter/02_Python_Jupyter_exercises
     - file: modules/03_NumPy_Pandas_Matplotlib/README
       sections:
