@@ -47,8 +47,8 @@ parts:
     - file: modules/03_NumPy_Pandas_Matplotlib/README
       sections:
       - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_prep
-      - file: modules/03_NumPy_Pandas_Matplotlib/03_Matplotlib_Backend_Demo
       - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Demo
+      - file: modules/03_NumPy_Pandas_Matplotlib/03_Matplotlib_Backend_Demo
       - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_ICESat_exercises
     - file: modules/04_Vector1_Geopandas_CRS_Proj/README
       sections:
