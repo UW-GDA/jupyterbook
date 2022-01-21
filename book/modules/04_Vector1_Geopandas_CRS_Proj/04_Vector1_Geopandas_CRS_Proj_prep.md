@@ -4,14 +4,14 @@ UW Geospatial Data Analysis
 CEE498/CEWA599  
 David Shean  
 
-This week, please finish your Week 3 Numpy/Pandas/Matplotlib notebook lab exercises, then follow the [student weekly workflow instructions](https://github.com/UW-GDA/gda_course_2021/blob/master/resources/students/student_weekly_workflow.md#submitting-completed-assignments) to submit on Github (make sure to switch to `%matplotlib inline` and rerun to embed figures!), then submit the url on the Canvas assignment page before the deadline.
+This week, please finish the Lab03 exercises, then follow the [student weekly workflow](../../resources/students/student_weekly_workflow.md) to submit on Github (make sure to switch to `%matplotlib inline` and rerun to embed figures!), then submit the url on the Canvas assignment page before the deadline.
 
 ## Overview
-This week, we are going to cover several fundamental geospatial data concepts, including coordinate systems, projections/transformations, vector geometries (points, lines, polygons) and basic geometry operations (intersect, buffer, etc). We will also begin using the GeoPandas package (https://geopandas.readthedocs.io/en/latest/) for further analysis of the ICESat point dataset.
+This week, we are going to cover several fundamental geospatial data concepts, including coordinate reference systems (CRS), projections/transformations, vector geometries (points, lines, polygons) and basic geometry operations (intersect, buffer, etc). We will also begin using the GeoPandas package (https://geopandas.readthedocs.io/en/latest/) for further analysis of the ICESat point dataset.
 
 >“GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types. Geometric operations are performed by shapely. Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.”
 
-We will revisit vector data and cover more advanced processing, analysis and visualization in a few weeks, after the Raster Intro module.
+We will revisit vector data and cover more advanced processing, analysis and visualization in a few weeks.
 
 ## Reading and Tutorials
 Please take some time before lab on Friday to review some of the following material (especially important if you have limited GIS experience), and come with questions on topics that are unclear, so we can discuss together. There is some overlap in content, but they offer different presentations of essential material, so hopefully one or more will work for you, and some repetition will help solidify.

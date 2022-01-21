@@ -52,7 +52,7 @@ parts:
       - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_ICESat_exercises
     - file: modules/04_Vector1_Geopandas_CRS_Proj/README
       sections:
-      - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Projections_prep
+      - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_prep
       - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_demo
       - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Tissot_MapDistortion_demo
       - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_exercises
