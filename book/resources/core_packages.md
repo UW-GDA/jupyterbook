@@ -5,7 +5,7 @@ David Shean
 
 These are a set of loosely organized notes, tips, tricks and gotchas for tools used during the course.  
 
-# Matplotlib
+## Matplotlib
 Review very useful FAQ here: 
 * https://matplotlib.org/3.1.1/tutorials/introductory/usage.html
 * https://matplotlib.org/api/index.html#usage-patterns
@@ -37,7 +37,7 @@ for ax in axa.ravel():
     ax.set_aspect('equal')
 ```
 
-## Backend choice
+### Backend choice
 
 #### `%matplotlib inline`
 * Render static figures as jpg and embed in the ipynb file (will appear as binary in json)
@@ -54,8 +54,12 @@ Some issues updating previous figure using commands in next cell - Usually creat
 If you are working locally (not on Jupyterlab interface), best to use:
 `%matplotlib notebook`
 
-# Geopandas
+## Pandas
+### Scatterplot x axis label and x tick labels disappear when using colormap
+* Workaround: add `sharex=False` keyword argument, or create an axes object (`f, ax = plt.subplots()`) and pass to `df.plot(ax=ax,...)`
+* https://github.com/pandas-dev/pandas/issues/36064
 
+## Geopandas
 ### Geopandas colorbar extends beyond axes
 ```
 divider = make_axes_locatable(ax)
