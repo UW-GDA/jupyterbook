@@ -7,7 +7,7 @@ David Shean
 This week, please finish the Lab03 exercises, then follow the [student weekly workflow](../../resources/students/student_weekly_workflow.md) to submit on Github (make sure to switch to `%matplotlib inline` and rerun to embed figures!), then submit the url on the Canvas assignment page before the deadline.
 
 ## Overview
-This week, we are going to cover several fundamental geospatial data concepts, including coordinate reference systems (CRS), projections/transformations, vector geometries (points, lines, polygons) and basic geometry operations (intersect, buffer, etc). We will also begin using the GeoPandas package (https://geopandas.readthedocs.io/en/latest/) for further analysis of the ICESat point dataset.
+This week, we are going to cover several fundamental geospatial data concepts, including coordinate reference systems (CRS), projections/transformations, and basic vector geometry definitions (points, lines, polygons). We will also begin using the GeoPandas package (https://geopandas.readthedocs.io/en/latest/) for further analysis of the ICESat point dataset.
 
 >“GeoPandas is an open source project to make working with geospatial data in python easier. GeoPandas extends the datatypes used by pandas to allow spatial operations on geometric types. Geometric operations are performed by shapely. Geopandas further depends on fiona for file access and descartes and matplotlib for plotting.”
 
