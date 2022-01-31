@@ -19,34 +19,32 @@ Please review the following material (especially if you have limited GIS or remo
     * https://datacarpentry.org/organization-geospatial/01-intro-raster-data/index.html
 
 ### Multispectral Image and Landsat background
+* https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-overview
 * EarthLab Section 5: https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/
-    * Suggested (can skim/read, no need for interactive):
+    * Required (can skim on web, not required to try interactive):
         * Chapter 7: Introduction to Multispectral Remote Sensing Data in Python
         * Chapter 9: Work with Landsat Remote Sensing Data in Python
         * Chapter 11: Calculate Vegetation Indices in Python
-    * Optional:
-        * Chapter 8
-        * Chapter 10
-* https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-overview
 
 ### Rasterio
 * https://rasterio.readthedocs.io/en/latest/quickstart.html
 * Automating GIS Processes
-    * [Reading raster files with Rasterio](https://automating-gis-processes.github.io/site/notebooks/Raster/reading-raster.html)
-    * [Visualizing raster layers](https://automating-gis-processes.github.io/site/notebooks/Raster/plotting-raster.html)
-    * [Masking / clipping raster](https://automating-gis-processes.github.io/site/notebooks/Raster/clipping-raster.html)
-    * [Raster map algebra](https://automating-gis-processes.github.io/site/notebooks/Raster/raster-map-algebra.html)
+    * [Reading raster files with Rasterio](https://autogis-site.readthedocs.io/en/latest/notebooks/Raster/reading-raster.html)
+    * [Visualizing raster layers](https://autogis-site.readthedocs.io/en/latest/notebooks/Raster/plotting-raster.html)
+    * [Masking / clipping raster](https://autogis-site.readthedocs.io/en/latest/notebooks/Raster/clipping-raster.html)
+    * [Raster map algebra](https://autogis-site.readthedocs.io/en/latest/notebooks/Raster/raster-map-algebra.html)
 
 ### GDAL
-* Parts 1, 2 and 4 of Rob Simmons' "A Gentle Introduction to GDAL":
-    * https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-1-a3253eb96082
-    * https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-2-map-projections-gdalwarp-e05173bd710a
-    * https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-4-working-with-satellite-data-d3835b5e2971
+* Quickstart: https://live.osgeo.org/en/quickstart/gdal_quickstart.html
+* Part 4 of Rob Simmons' "A Gentle Introduction to GDAL": https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-4-working-with-satellite-data-d3835b5e2971
 * Optional
-    * https://live.osgeo.org/en/quickstart/gdal_quickstart.html
-    * https://trac.osgeo.org/gdal/wiki/UserDocs/RasterProcTutorial
+    * https://github.com/dwtkns/gdal-cheat-sheet#raster-operations
+    * https://developers.planet.com/planetschool/getting-started-with-gdal/
+    * Parts 1 and 2 of Rob Simmons' "A Gentle Introduction to GDAL":
+        * https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-1-a3253eb96082
+        * https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-2-map-projections-gdalwarp-e05173bd710a
 
-### Other resources
+### Other resources (optional)
 * GeoHackWeek: https://geohackweek.github.io/raster/
 * EarthLab Section 3: https://www.earthdatascience.org/courses/use-data-open-source-python/intro-raster-data-python/fundamentals-raster-data/
-    * Note: The EarthLab material recently migrated from `rasterio` to `rioxarray`. We will start with `rasterio`, then come back to `xarray` and `rioxarray` later in the quarter.
+    * Note: The EarthLab material recently migrated from `rasterio` to `rioxarray` for raster processing in PYthon. We will start with `rasterio`, then come back to `xarray` and `rioxarray` later in the quarter.
