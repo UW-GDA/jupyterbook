@@ -10,24 +10,24 @@ This week, we are going to cover raster basics.  We will introduce and use `gdal
 ## Reading and Tutorials
 Please review the following material (especially if you have limited GIS or remote sensing experience), and come to lecture/lab with questions on topics that are unclear, so we can discuss together.  There is some overlap in content, but different presentation of the essential material, so hopefully one or more will work for you:
 
-### Raster basics
-* ESRI Documentation (~15 min)
+### Raster fundamentals
+* ESRI Documentation (~15-30 min)
     * https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/what-is-raster-data.htm
     * https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/cell-size-of-raster-data.htm
     * https://desktop.arcgis.com/en/arcmap/latest/manage-data/raster-and-images/raster-bands.htm
 * Data Carpentry Introduction to Raster Data (~15 min)
     * https://datacarpentry.org/organization-geospatial/01-intro-raster-data/index.html
 
-### Multispectral Image and Landsat background
-* https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-overview
-* EarthLab Section 5: https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/
-    * Required (can skim on web, not required to try interactive):
-        * Chapter 7: Introduction to Multispectral Remote Sensing Data in Python
-        * Chapter 9: Work with Landsat Remote Sensing Data in Python
-        * Chapter 11: Calculate Vegetation Indices in Python
+### Landsat and multispectral imagery background
+* Intro and history: https://en.wikipedia.org/wiki/Landsat_program
+* Landsat-8 Overview: https://landsat.gsfc.nasa.gov/landsat-8/landsat-8-overview
+* EarthLab Section 5: https://www.earthdatascience.org/courses/use-data-open-source-python/multispectral-remote-sensing/. Required chapters (can skim on web, not required to try interactive):
+    * Chapter 7: Introduction to Multispectral Remote Sensing Data in Python
+    * Chapter 9: Work with Landsat Remote Sensing Data in Python
+    * Chapter 11: Calculate Vegetation Indices in Python
 
 ### Rasterio
-* https://rasterio.readthedocs.io/en/latest/quickstart.html
+* Quickstart: https://rasterio.readthedocs.io/en/latest/quickstart.html
 * Automating GIS Processes
     * [Reading raster files with Rasterio](https://autogis-site.readthedocs.io/en/latest/notebooks/Raster/reading-raster.html)
     * [Visualizing raster layers](https://autogis-site.readthedocs.io/en/latest/notebooks/Raster/plotting-raster.html)
@@ -36,8 +36,9 @@ Please review the following material (especially if you have limited GIS or remo
 
 ### GDAL
 * Quickstart: https://live.osgeo.org/en/quickstart/gdal_quickstart.html
+    * Only the GDAL sections (not OGR) 
 * Part 4 of Rob Simmons' "A Gentle Introduction to GDAL": https://medium.com/planet-stories/a-gentle-introduction-to-gdal-part-4-working-with-satellite-data-d3835b5e2971
-* Optional
+* Optional:
     * https://github.com/dwtkns/gdal-cheat-sheet#raster-operations
     * https://developers.planet.com/planetschool/getting-started-with-gdal/
     * Parts 1 and 2 of Rob Simmons' "A Gentle Introduction to GDAL":
