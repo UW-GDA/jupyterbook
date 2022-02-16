@@ -1,1 +1,1 @@
-# 07: Reprojection, Clipping, Sampling, Zonal Stats
+# 07: Reprojection, Clipping, Sampling, Zonal Stats 
