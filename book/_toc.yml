@@ -87,7 +87,7 @@ parts:
       - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_demo
       - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part0_download
       - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part1_exercises
-      - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part2
+      - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part2_exercises
     - file: modules/10_Conda_Dask_rioxarray_etc/README
       sections:
       - file: modules/10_Conda_Dask_rioxarray_etc/rioxarray_dask
