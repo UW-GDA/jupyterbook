@@ -48,13 +48,13 @@ The course is organized into 10 week-long modules. Each module contains backgrou
 10. [Conda, dask, rioxarray](modules/10_Conda_Dask_rioxarray_etc/README.md)
 
 ## Try it!
-[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/uwgda-image-2021/main?urlpath=git-pull?repo=https://github.com/UW-GDA/gda_course_2021%26amp%3Bbranch=master%26amp%3Burlpath=lab)
-Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2021. You can use the file browser on the left side to navigate and launch interactive notebooks in the `gda_2021/modules` directory.
+[![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/uwgda-image-2022/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FUW-GDA%252Fjupyterbook%26urlpath%3Dlab%252Ftree%252Fjupyterbook%252Fbook%252Fmodules%26branch%3Dmain)
+Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2022. You can use the file browser on the left side to navigate and launch interactive notebooks in the `book/modules` directory.
 
-*Note: this session is ephemeral and the hardware resources are limited (only 2 GB of RAM). Your home directory will not persist, so use this only for exploration and demos. Within the Jupterylab environment, you can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
+*Note: this session is ephemeral and the hardware resources may be limited (~2-8 GB of RAM, limited disk space). Your home directory will not persist, so use this only for exploration and demos. Within the Jupterylab environment, you can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
 
 ### Reproducing locally
-1. Download all course materials: `git clone https://github.com/UW-GDA/gda_course_2021.git`
+1. Download all course materials: `git clone https://github.com/UW-GDA/jupyterbook`
 2. See the [Week 10 materials](modules/10_Conda_Dask_rioxarray_etc/README.md) for instructions on how to set up your local environment to run the notebooks. Or, if you're already familiar with conda, here are the environment files:
    * [uwgda2022](https://github.com/UW-GDA/uwgda-image-2022/blob/main/environment.yml) (see the conda lock file for pinned version numbers)
 3. Notebooks should have instructions/code to download all necessary data
@@ -106,7 +106,7 @@ Also, the tools and methods outlined here will work for many problems, but may n
 Many individuals have contributed to the content and infrastructure development required for this course:
 * First and foremost, the brave GDA students who enrolled in this course duing winter 2019 and winter 2020 provided critical feedback, suggestions and often elegant solutions to challenging problems
 * Scott Henderson (UW eScience/ESS) for leading the Jupyterhub image preparation, JupyterBook, and Github CI setup and configuration
-* Chris Land (UW-IT) and Scott Henderson (UW eScience/ESS) provided Jupyterhub configuration and support during the 2020 Pilot offering
+* Chris Land (UW-IT) and Scott Henderson (UW eScience/ESS) provided Jupyterhub configuration and support during the 2020 UW-IT Jupyterhub Pilot offering
 * Amanda Tan (UW eScience) provided Jupyterhub configuration and support during 2019
 * Bill Schaefer, Tom Lewis and Rob Fatland (UW-IT) provided management and support for the UW-IT Jupyterhub program
 * Friedrich Knuth, Shashank Bhushan, and Michelle Hu provided assistance during lab periods in 2020. Friedrich Knuth provided initial material on conda.
