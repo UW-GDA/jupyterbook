@@ -64,7 +64,14 @@ Clicking this badge will launch the GDA image and Jupyterlab environment on [myb
 ### Syllabus (UW netid required)  
 * https://docs.google.com/document/d/1qB1XiV088vjq-xQ_h05FMRW027MOmiB-nrohpB_rJ50/edit?usp=sharing  
 
-### Weekly workflow  
+### [Student Preparation](resources/students/student_preparation.md)
+Follow the above link for answers to FAQ:  
+* No formal prerequisites!?
+* Do I need to know Python?
+* What if I'm really comfortable with R/Matlab?
+* I've never used GIS before, is that a problem?
+
+### Weekly workflow
 * Students independently complete online reading assignments or work through tutorials prior to lab
 * Synchronous 1.5-hour lecture/demo/discussion on Wednesday afternoon
     * Will be recorded for students who cannot attend synchronously
