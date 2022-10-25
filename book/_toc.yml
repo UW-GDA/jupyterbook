@@ -9,6 +9,7 @@ parts:
     - file: resources/syllabus.md
     - file: resources/students/README
       sections:
+      - file: resources/students/student_preparation.md
       - file: resources/students/student_initial_setup.md
       - file: resources/students/student_weekly_workflow.md
     - file: resources/instructors/README

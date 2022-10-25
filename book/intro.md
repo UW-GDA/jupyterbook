@@ -1,6 +1,6 @@
 # Geospatial Data Analysis with Python
 
-Course material from the Winter 2022 offering of CEE498/CEWA599 at the University of Washington
+Course material from the Winter 2023 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
 
 David Shean  
 Civil and Environmental Engineering  
@@ -61,10 +61,17 @@ Clicking this badge will launch the GDA image and Jupyterlab environment on [myb
 
 ## Course details
 
-### Syllabus (UW netid required)
-https://docs.google.com/document/d/1fS43OpTLcobo982Ip4TWsD-m5mefPemque7uNT-wZG0/edit?usp=sharing
+### Syllabus (UW netid required)  
+* https://docs.google.com/document/d/1qB1XiV088vjq-xQ_h05FMRW027MOmiB-nrohpB_rJ50/edit?usp=sharing  
 
-### Weekly workflow:
+### [Student Preparation](resources/students/student_preparation.md)
+Follow the above link for answers to FAQ:  
+* No formal prerequisites!?
+* Do I need to know Python?
+* What if I'm really comfortable with R/Matlab?
+* I've never used GIS before, is that a problem?
+
+### Weekly workflow
 * Students independently complete online reading assignments or work through tutorials prior to lab
 * Synchronous 1.5-hour lecture/demo/discussion on Wednesday afternoon
     * Will be recorded for students who cannot attend synchronously
@@ -74,10 +81,9 @@ https://docs.google.com/document/d/1fS43OpTLcobo982Ip4TWsD-m5mefPemque7uNT-wZG0/
     * Next 30-60 minutes: lab introduction and demo for new material
     * Will be recorded for students who cannot attend synchronously
     * Remainder of lab for groups of students to work through lab materials, discuss, write code, troubleshoot, and try to complete exercises together
-* Students finish exercises (and "extra credit" challenge problems) for homework (due the following week)
+* Students finish exercises (and "extra credit" challenge problems) for homework (due the following week). Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
 
-* Students report ~6-12 hours outside of the 3-hour lab required to complete reading and homework
-* See weekly workflow documents in Resources section for additional information
+See [weekly workflow document](resources/students/student_weekly_workflow.md) in Resources section for additional information
 
 ### [Final Project](resources/project/README.md)
 * Students propose, refine, perform and present independent or group projects
