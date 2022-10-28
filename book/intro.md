@@ -2,13 +2,12 @@
 
 Course material from the Winter 2023 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
 
-David Shean  
+[David Shean](https://www.ce.washington.edu/facultyfinder/david-shean)  
 Civil and Environmental Engineering  
 University of Washington  
-https://uw-cryo.github.io  
 
-## Overview
-This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. We will explore fundamental concepts and real-world data science applications involving a variety of geospatial datasets.
+## Description
+This course explores geospatial data processing, analysis, interpretation, and visualization techniques using Python and open-source tools/libraries. Covers fundamental concepts, real-world data engineering problems, and data science applications using a variety of geospatial and remote sensing datasets.
 
 ## Highlights  
 - Aspects of both data engineering and data science, with exploratory data analysis approach
