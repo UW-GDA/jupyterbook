@@ -10,12 +10,11 @@
     * You will need to join the UW-GDA Github Organization (https://github.com/UW-GDA). See the instructions below to accept the "Github Starter Course" assignment, which should automatically add you to the Organization.
     * If all of this is new, don’t worry, we will walk through basic workflows during the first lecture/lab, and you will become more familiar in the coming weeks.
 1. Accept the "Github Starter Course" assignment (see Slack for link) 
-    * Find your name and link your Github account to the Github Classroom roster
+    * This will create a new repo with your username appended (`github-starter-course-username`)
+    * If prompted to find your name on the course roster, you can skip - in past years, I manually added everyone, but we will use this starter course assignment to get you set up, and your github username will be your primary identifier, not your full name.
+    * If presented with opportunity to join the UW-GDA organization, please do so. Otherwise, I will manually send you an invite (sent to the email address associated with your github account).
+      * If you encounter any issues or you were unable to join the UW-GDA organization before the first class, send @dshean a direct message on Slack
     * Give the `README.md` in your new repo a skim - it provides a nice, high-level overview of git/Github
-    * This should automatically invite you to join the UW-GDA Organization
-        * If this doesn't work:
-            * Send me a direct Slack message with your github username (do this as soon as possible)
-            * I will manually add you to UW-GDA Organization
 1. If you have not already done so, please sign up for an institutional Google account using your UW email address. This is needed to fill out Forms and View/Edit Docs. I will only enable access for UW Google accounts (not personal accounts).
 1. Attempt to log on to the course Jupyterhub (see Slack for link)
     * This is the computing environment we will use for the quarter
