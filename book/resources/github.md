@@ -20,12 +20,14 @@ Additional UW eScience Hackweek resources on initial Github setup and navigation
 As of August 2021, Github disabled using passwords for remote command line access. We will use the more secure Personal Access Token (PAT) authentication option. 
 
 ### Create Personal Access Token (PAT)
-* Follow the basic instructions here: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token 
+* Follow the token "Classic" token instructions: https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#creating-a-personal-access-token-classic
     * Step 6: Name the token "GDA Jupyterhub"
-    * Step 7: Set expiration to "Never"
+    * Step 7: Set expiration to "No Expiration"
     * Step 8: Check permission boxes for `repo`, `workflow` and `delete_repo`
-    * Copy the code and store in a safe location (e.g., password manager, keychain)
-* When using git on the course Jupyterhub, enter your code when prompted to enter a Github password (e.g., when pushing to a remote repo)
+    * Click "Generate"
+    * Copy the token code provided and store in a safe location (e.g., password manager, keychain)
+* When using git on the course Jupyterhub, enter your token code when prompted to enter a Github password (e.g., when pushing to a remote repo)
+    * https://docs.github.com/en/authentication/keeping-your-account-and-data-secure/creating-a-personal-access-token#using-a-token-on-the-command-line 
     * *NOTE: when you paste the code, it will be hidden and remain blank! Hit enter to accept after pasting* 
 
 ### Store credentials
