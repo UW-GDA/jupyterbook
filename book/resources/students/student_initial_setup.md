@@ -7,11 +7,11 @@
 1. Create a free Github account if you do not have one already: https://github.com/join
     * I will distribute materials/assignments using Github Classroom, which requires you to link a Github account.
     * I recommend you apply for the free edu account upgrade (https://education.github.com/discount_requests/new), which will allow you to create unlimited number of private repos with unlimited collaborators.
-    * You will need to join the UW-GDA Github Organization (https://github.com/UW-GDA), see instructions below.
+    * You will need to join the UW-GDA Github Organization (https://github.com/UW-GDA). See the instructions below to accept the "Github Starter Course" assignment, which should automatically add you to the Organization.
     * If all of this is new, don’t worry, we will walk through basic workflows during the first lecture/lab, and you will become more familiar in the coming weeks.
 1. Accept the "Github Starter Course" assignment (see Slack for link) 
     * Find your name and link your Github account to the Github Classroom roster
-    * Give the README.md in your new repo a skim - it provides a nice, high-level overview of git/Github
+    * Give the `README.md` in your new repo a skim - it provides a nice, high-level overview of git/Github
     * This should automatically invite you to join the UW-GDA Organization
         * If this doesn't work:
             * Send me a direct Slack message with your github username (do this as soon as possible)
