@@ -49,6 +49,6 @@ If you’re stuck or confused, please send a message to the #01_shell_git Slack 
 
 ## Assignment: Due *this* Friday
 * Complete the above reading assignments
-* Fill out this form about the reading assignment: https://forms.gle/7Ym4nXc4p6dZnYZp9 
+* Fill out this form about the reading assignment: https://forms.gle/mgYEFmi7UYs5jhPz6
 ## Outlook
 During week 2, we will review Python, iPython/Juptyer, and continue exploring the shell and git/github. There will be opportunities to continue learning all of this material throughout the course, but I want to reiterate that this is not an intro Python or intro programming class. By week 3, I’m hoping that everyone will be comfortable with the basics, and we can jump into some actual geospatial applications. With that said, I’ve intentionally kept the schedule flexible, so we can adjust as we go along - I need to calibrate after I get a better sense of everyone’s experience level.
