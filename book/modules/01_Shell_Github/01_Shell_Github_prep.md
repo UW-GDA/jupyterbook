@@ -13,7 +13,7 @@ We are going to “flip the classroom” for the first two weeks. Before class, 
 * Review the syllabus: https://docs.google.com/document/d/1fS43OpTLcobo982Ip4TWsD-m5mefPemque7uNT-wZG0/edit?usp=sharing 
     * Access using your UW Google account, not personal Google account
     * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions/suggestions, please add comments inline, and/or come to class ready to ask questions.
-* Fill out the background questionnaire (access with UW Google account): https://forms.gle/MVdoybdFCaPBYC58A
+* Fill out the background questionnaire (access with UW Google account): https://forms.gle/JwUCBcQ7cdRQnsH6A
     * Don't overthink this, it shouldn't take more than 5-10 minutes to fill out!
 * Review the course [Code of Conduct](../../resources/code_of_conduct.md) document.
 * Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
