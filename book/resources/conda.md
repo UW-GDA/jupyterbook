@@ -1,7 +1,7 @@
 # Conda and Jupyter Setup Instructions
 
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 Friedrich Knuth and David Shean  
 
 ## [What is conda?](https://conda.io/en/latest/)

@@ -1,6 +1,6 @@
 # Core Package Notes 
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 These are a set of loosely organized notes, tips, tricks and gotchas for tools used during the course.  

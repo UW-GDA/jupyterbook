@@ -1,7 +1,7 @@
 # Introduction
 
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 This week, please finish the Lab03 exercises, then follow the [student weekly workflow](../../resources/students/student_weekly_workflow.md) to submit on Github (make sure to switch to `%matplotlib inline` and rerun to embed figures!), then submit the url on the Canvas assignment page before the deadline.

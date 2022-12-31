@@ -1,6 +1,6 @@
 # Jupyter Notes
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 These are a set of loosely organized notes, tips, tricks and gotchas for Jupyter resources (Jupyterhub, Jupyter lab and Jupyter notebooks) used during the course.  Additional notes on initial setup and weekly workflow can be found in the [GDA instructor resources](instructors/README.md).

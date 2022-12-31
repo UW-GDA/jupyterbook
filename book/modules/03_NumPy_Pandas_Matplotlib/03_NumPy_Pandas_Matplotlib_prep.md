@@ -1,7 +1,7 @@
 # Introduction
 
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 Please quickly read through this entire document once, then go back and start tackling the various tasks.

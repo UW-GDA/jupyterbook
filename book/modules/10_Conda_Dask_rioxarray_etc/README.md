@@ -1,7 +1,7 @@
 # 10: Conda, Dask, Pangeo
 
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 We made it to Week 10! No formal assignment this week, so please use the time to work on your final projects. 

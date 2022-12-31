@@ -1,7 +1,7 @@
 # Introduction
 
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 This week, we are going to revisit rasters. We will cover common operations and strategies, including reprojection, clipping, sampling strategies, zonal statistics, and creating rasters from unstructured point data.

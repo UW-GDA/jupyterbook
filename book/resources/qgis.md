@@ -1,6 +1,6 @@
 # QGIS Notes
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 These are a set of loosely organized notes, tips, tricks and gotchas for [QGIS](https://qgis.org/en/site/) - a fantastic, free, open-source Geographic Information System (GIS). 
