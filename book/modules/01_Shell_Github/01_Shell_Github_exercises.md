@@ -1,6 +1,6 @@
 # Lab01 Exercises
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 ## Introduction

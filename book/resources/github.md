@@ -1,6 +1,6 @@
 # Github and Github Classroom Notes
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 These are a set of loosely organized notes, tips, tricks and gotchas for git and Github resources used during the course.  Additional notes on initial setup and weekly workflow for students and instructors can be found in the Resources.

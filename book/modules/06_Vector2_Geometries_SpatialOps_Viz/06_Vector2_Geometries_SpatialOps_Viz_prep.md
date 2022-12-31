@@ -1,7 +1,7 @@
 # Introduction
 
 UW Geospatial Data Analysis  
-CEE498/CEWA599  
+CEE467/CEWA567  
 David Shean  
 
 This week, we are going to revisit vectors, geometry operations, spatial/attribute joins, and more sophisticated visualization.  We will illustrate some of these concepts with the GLAS point dataset and the U.S. State outlines.

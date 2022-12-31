@@ -1,6 +1,6 @@
 # Shell Notes
 UW Geospatial Data Analysis
-CEE498/CEWA599
+CEE467/CEWA567
 David Shean
 
 ## Background 
