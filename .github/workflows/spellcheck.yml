@@ -5,20 +5,20 @@ on:
 
 jobs:
   spellcheck:
-    runs-on: ubuntu-20.04
+    runs-on: ubuntu-22.04
     steps:
-    - uses: actions/checkout@v2
+    - uses: actions/checkout@v3
 
-    - uses: actions/setup-python@v2
+    - uses: actions/setup-python@v4
       with:
-        python-version: '3.9'
+        python-version: '3.11'
         cache: 'pip'
 
     - run: pip install -r requirements.txt
 
     # NOTE: this isn't a comprehensive spellcheck, just common typos
     - name: Spellcheck
-      uses: codespell-project/actions-codespell@master
+      uses: codespell-project/actions-codespell@v1
       with:
         check_filenames: true
         check_hidden: true
