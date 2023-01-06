@@ -1,17 +1,21 @@
 # Demo
 UW Geospatial Data Analysis  
-CEE467/CEWA567  
+CEE467/CEWA567
 David Shean  
 
 ## Preparation and discussion
 - Make sure all students are on Jupyterhub whitelist (UW netid)
 - Distribute link to course Jupyterhub, have students start server
+- Basic interface overview - start a shell, start a notebook
 - Discuss remote computing - underlying infrastructure, computer somewhere in Google data center in CA or OR
 - Close tab in Jupyterlab - demonstrate persistence
 - Ask about OS? Anybody using Linux? All of you!
-- Distribute assignment link through Github classroom
+
+## Set up git on Jupyterhub
+- https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login
 
 # Basic git/Github workflow
+1. Distribute assignment link through Github classroom
 1. Clone assignment locally:  
 `git clone https://github.com/UW-GDA/01-shell-github-dshean.git`
     * Alternatively, create a new repo called gda_test on Github:
@@ -20,11 +24,11 @@ David Shean
     cd gda_test  
     ls -l
     ```
-2. Pick a text editor
+1. Pick a text editor
     * Discuss text editors, pick one for command line, or use Jupyterlab text editor
     * https://web.stanford.edu/class/cs107/resources/editors
-3. Edit `README.md` and add your name
-4. Commit the change
+1. Edit `README.md` and add your name
+1. Commit the change
 ```
 git status
 git add README.md
@@ -39,6 +43,7 @@ git status
 * Refresh page, verify README.md was updated
 
 ### Edit README.md on Github, commit directly
+* Add today's date below your name
 
 ### Pull changes to local repo
 * `git pull`
@@ -108,7 +113,9 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
 ```
 
 # Other topics to discuss
-* https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
+* Best practices for `git add` - specify filenames for now
+    * https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
+    * https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/github.html#why-are-a-bunch-of-random-files-added-to-my-repo
 * Tab completion
 * Shell history (use up arrow)
 * du and df
