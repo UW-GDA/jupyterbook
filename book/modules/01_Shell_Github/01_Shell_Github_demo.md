@@ -1,6 +1,6 @@
 # Demo
 UW Geospatial Data Analysis  
-CEE467/CEWA567
+CEE467/CEWA567  
 David Shean  
 
 ## Preparation and discussion
