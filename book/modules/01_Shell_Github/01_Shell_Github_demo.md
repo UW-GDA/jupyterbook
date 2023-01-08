@@ -4,28 +4,40 @@ CEE467/CEWA567
 David Shean  
 
 ## Preparation and discussion
-- Make sure all students are on Jupyterhub whitelist (UW netid)
+- Make sure all students are on Jupyterhub (add UW netid from Hub Control Panel if necessary)
 - Distribute link to course Jupyterhub, have students start server
-- Basic interface overview - start a shell, start a notebook
-- Discuss remote computing - underlying infrastructure, computer somewhere in Google data center in CA or OR
-- Close tab in Jupyterlab - demonstrate persistence
+- Basic interface overview - start a shell, start a notebook (next week)
 - Ask about OS? Anybody using Linux? All of you!
+- Discuss virtual machine and cloud computing
+   - underlying infrastructure, computer somewhere in Google data center in CA or OR
+   - `uname -a`, `lscpu`, `free`, `top`, `df -h .`
+- Close tab in Jupyterlab - demonstrate persistence
+- Storage will persist throughout quarter, server will shut down after ~1 hour of inactivity
+
+## Shell overview
+- Discussion of prompt (jovyan)
+- Disucssion of file system navigation (all the way to /)
+- Commands and arguments
+- Tab completion
+- `ls -l` - modificaiton timestamps
 
 ## Set up git on Jupyterhub
 - https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/github.html#first-time-login
+- Set up token
 
-# Basic git/Github workflow
-1. Distribute assignment link through Github classroom
+## Basic git/Github workflow
+1. Distribute Week 01 Github classroom assignment link through Slack channel 
 1. Clone assignment locally:  
-`git clone https://github.com/UW-GDA/01-shell-github-dshean.git`
-    * Alternatively, create a new repo called gda_test on Github:
-    ```
-    git clone https://github.com/dshean/gda_test.git  
-    cd gda_test  
-    ls -l
-    ```
+   ```
+   git clone https://github.com/UW-GDA/01-shell-github-dshean.git
+   cd gda_test  
+   ls -l
+   ```
+1. git vs. github, local vs remote 
+1. Discuss repo contents - markdown files, csv
 1. Pick a text editor
-    * Discuss text editors, pick one for command line, or use Jupyterlab text editor
+    * Demonstration of Jupyterlab text editor
+    * Discuss text editors, pick one for command line
     * https://web.stanford.edu/class/cs107/resources/editors
 1. Edit `README.md` and add your name
 1. Commit the change
@@ -49,12 +61,15 @@ git status
 * `git pull`
 * `git log`
 
-# Add a new file to the repo
+## Add a new file to the repo
 
 ### Create a new text file
 * `nano git_reflections.txt`
 * Add some text "Git is ..."
 * Follow above add, commit, push
+   * For now, always specify each file to commit
+   * For now, modify single file, add and commit
+   * Try without `-m` and demonstrate nano (how to get out)
 
 ### Create a new text file
 * Discuss extensions (.sh vs. .txt or .py)
@@ -95,7 +110,7 @@ git status
 git commit -m "Change permissions on myawesomescript.py"
 ```
 
-### Review log, master is ahead of origin
+### Review log, main is ahead of origin
 ```
 git log
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
@@ -107,17 +122,19 @@ git push
 git status
 ```
 
-### Review log, both origin and master are same
+### Review log, both origin and main are same
 ```
 git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(%cr) %C(bold blue)<%an>%Creset' --abbrev-commit
 ```
 
 # Other topics to discuss
-* Best practices for `git add` - specify filenames for now
+* You will make mistakes, it's OK, can always start over with git
+* Post to #01_shell_github channel for help
+* Best practices with git
     * https://stackoverflow.com/questions/572549/difference-between-git-add-a-and-git-add
     * https://uwgda-jupyterbook.readthedocs.io/en/latest/resources/github.html#why-are-a-bunch-of-random-files-added-to-my-repo
 * Tab completion
-* Shell history (use up arrow)
+* Command `history` (use up arrow)
 * du and df
 * top and ps
 * ssh and scp
@@ -140,9 +157,4 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
     ```
 
 # Introduce assignment
-* `more words`
-* `more GLAH14_tllz_conus_lulcfilt_demfilt.csv`
-* `file words`
-* How are we going to count the number of words? Online search term discussion
-    * `wc -l words`
-* How to submit answers: create a new text file, copy your command and output to a new text file
+* Walk through first few questions of assignment together
