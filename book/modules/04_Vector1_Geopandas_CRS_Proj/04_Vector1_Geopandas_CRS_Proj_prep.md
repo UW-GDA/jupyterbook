@@ -6,6 +6,10 @@ David Shean
 
 This week, please finish the Lab03 exercises, then follow the [student weekly workflow](../../resources/students/student_weekly_workflow.md) to submit on Github (make sure to switch to `%matplotlib inline` and rerun to embed figures!), then submit the url on the Canvas assignment page before the deadline.
 
+Also, please review information about the course [Final Project](../../resources/project/README.md):  
+* Start thinking about potential project ideas you might want to explore
+* Come prepared on Friday to share an idea or two during breakouts with other students (no commitment expected, just brainstorm)
+
 ## Overview
 This week, we are going to cover several fundamental geospatial data concepts, including coordinate reference systems (CRS), projections/transformations, and basic vector geometry definitions (points, lines, polygons). We will also begin using the GeoPandas package (https://geopandas.readthedocs.io/en/latest/) for further analysis of the ICESat point dataset.
 
