@@ -24,7 +24,7 @@ https://jakevdp.github.io/PythonDataScienceHandbook/. You should have previously
    * **3. Data Manipulation with Pandas**
       * If new to Pandas, can skip section on Hierarchical Indexing, Pivot Tables and High-performance Pandas
    * **4. Visualization with Matplotlib**  
-      * Skip the section on "Geographic Data with Basemap" as this is largely outdated in 2021
+      * Skip the section on "Geographic Data with Basemap" as this is largely outdated
       * Can skip Customizing Matplotlib: Configurations and Stylesheets
 * Work through some of the interactive examples, and explore new concepts (don't just shift-Enter as quickly as possible)
 * The section on Machine Learning with Scikit-Learn is also great, but not required for this course
@@ -45,8 +45,5 @@ https://jakevdp.github.io/PythonDataScienceHandbook/. You should have previously
 
 ## Assignment (due Friday)
 * Complete above reading/tutorials
-* Fill out the following feedback form: https://forms.gle/f5Tz2cYjZoVMDMDo7
-* Review [Final Project](../../resources/project/README.md) information
-    * Start thinking about potential project ideas
-    * Come prepared on Friday to share an idea or two during breakouts with other students
+* Fill out the following feedback form: https://forms.gle/qLPWVAgRV3Mqfd4G9
 * Finish and turn in the lab exercises from last week (due midnight on Friday)
