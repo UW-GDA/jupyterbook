@@ -1,4 +1,4 @@
-# Introduction
+# 05: Raster Fundamentals: GDAL, rasterio, Landsat-8
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

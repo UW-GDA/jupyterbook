@@ -1,4 +1,4 @@
-# Introduction
+# 07: Reprojection, Clipping, Sampling, Zonal Stats 
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

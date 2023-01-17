@@ -1,6 +1,5 @@
-# 08_Vector_TimeSeries_SNOTEL_prep
+# 08: Vector time series: SNOTEL data for the Western U.S.
 
-## Introduction
 Static spatial analysis is powerful, but things often vary in time...
 
 ## Options to represent time in Python 
