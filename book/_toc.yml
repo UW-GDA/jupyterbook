@@ -33,49 +33,50 @@ parts:
 
   - caption: Modules
     chapters:
-    - file: modules/01_Shell_Github/README
+
+    - file: modules/01_Shell_Github/01_Shell_Github_prep
       sections:
-      - file: modules/01_Shell_Github/01_Shell_Github_prep
       - file: modules/01_Shell_Github/01_Shell_Github_demo
       - file: modules/01_Shell_Github/01_Shell_Github_exercises
-    - file: modules/02_Python_Jupyter/README
+
+    - file: modules/02_Python_Jupyter/02_Python_Jupyter_prep
       sections:
-      - file: modules/02_Python_Jupyter/02_Python_Jupyter_prep
       - file: modules/02_Python_Jupyter/02_Intro_Jupyter_Notebook
       - file: modules/02_Python_Jupyter/02_Intro_iPython
       - file: modules/02_Python_Jupyter/02_Python_demo
       - file: modules/02_Python_Jupyter/02_Python_Jupyter_exercises
-    - file: modules/03_NumPy_Pandas_Matplotlib/README
+
+    - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_prep
       sections:
-      - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_prep
       - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Demo
       - file: modules/03_NumPy_Pandas_Matplotlib/03_Matplotlib_Backend_Demo
       - file: modules/03_NumPy_Pandas_Matplotlib/03_NumPy_Pandas_Matplotlib_ICESat_exercises
-    - file: modules/04_Vector1_Geopandas_CRS_Proj/README
+
+    - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_prep
       sections:
-      - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_prep
       - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_demo
       - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Tissot_MapDistortion_demo
       - file: modules/04_Vector1_Geopandas_CRS_Proj/04_Vector1_Geopandas_CRS_Proj_exercises
-    - file: modules/05_Raster1_GDAL_rasterio_LS8/README
+
+    - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_prep
       sections:
-      - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_prep
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_LS8_download
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_Demo
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_Intro_array_masking_indexing
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_Part1_exercises
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_Part2_exercises
-    - file: modules/06_Vector2_Geometries_SpatialOps_Viz/README
+
+    - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_prep
       sections:
-      - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_prep
       - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_demo
       - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_exercises
-    - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/README
+
+    - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEMs_Warp_Clip_Sample_prep
       sections:
-      - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEMs_Warp_Clip_Sample_prep
       - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEMs_Warp_Clip_Sample_demo
       - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEM_download_strategies
       - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEMs_Warp_Clip_Sample_exercises
+
     - file: modules/08_Vector_TimeSeries_SNOTEL/README
       sections:
       - file: modules/08_Vector_TimeSeries_SNOTEL/08_Vector_TimeSeries_SNOTEL_prep
@@ -83,12 +84,13 @@ parts:
       - file: modules/08_Vector_TimeSeries_SNOTEL/08_GNSS_trajectory_demo
       - file: modules/08_Vector_TimeSeries_SNOTEL/08_SNOTEL_download
       - file: modules/08_Vector_TimeSeries_SNOTEL/08_Vector_TimeSeries_SNOTEL_exercises
-    - file: modules/09_NDarrays_xarray_ERA5/README
+
+    - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_demo
       sections:
-      - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_demo
       - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part0_download
       - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part1_exercises
       - file: modules/09_NDarrays_xarray_ERA5/09_NDarrays_xarray_ERA5_Part2_exercises
+
     - file: modules/10_Conda_Dask_rioxarray_etc/README
       sections:
       - file: modules/10_Conda_Dask_rioxarray_etc/rioxarray_dask

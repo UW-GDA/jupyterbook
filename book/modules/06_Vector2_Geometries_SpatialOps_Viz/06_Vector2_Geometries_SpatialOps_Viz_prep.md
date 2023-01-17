@@ -1,4 +1,4 @@
-# Introduction
+# 06: Geometries, Spatial Operations, Visualization
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

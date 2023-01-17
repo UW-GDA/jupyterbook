@@ -1,4 +1,4 @@
-# Introduction
+# 01: Shell and git/Github
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

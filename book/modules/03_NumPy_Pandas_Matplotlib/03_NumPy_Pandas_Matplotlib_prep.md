@@ -1,4 +1,4 @@
-# Introduction
+# 03: Numpy, Pandas and Matplotlib
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  

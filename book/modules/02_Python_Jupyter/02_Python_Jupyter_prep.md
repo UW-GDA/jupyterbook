@@ -1,4 +1,4 @@
-# Introduction
+# 02: Python and iPython/Jupyter
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
