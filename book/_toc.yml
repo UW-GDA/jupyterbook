@@ -77,9 +77,8 @@ parts:
       - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEM_download_strategies
       - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEMs_Warp_Clip_Sample_exercises
 
-    - file: modules/08_Vector_TimeSeries_SNOTEL/README
+    - file: modules/08_Vector_TimeSeries_SNOTEL/08_Vector_TimeSeries_SNOTEL_prep
       sections:
-      - file: modules/08_Vector_TimeSeries_SNOTEL/08_Vector_TimeSeries_SNOTEL_prep
       - file: modules/08_Vector_TimeSeries_SNOTEL/08_Timestamp_demo
       - file: modules/08_Vector_TimeSeries_SNOTEL/08_GNSS_trajectory_demo
       - file: modules/08_Vector_TimeSeries_SNOTEL/08_SNOTEL_download
