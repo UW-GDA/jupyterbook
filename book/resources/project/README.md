@@ -27,18 +27,18 @@ You have multiple options:
 * If you see potential opportunities to work with other students, follow up with them on Slack!
 
 ### Week 5: Submit Short Summary
-* Submit a short summary of your project. This could be a few sentences or a short paragraph, and will be part of your repo. Two options:
+* Submit a short summary of your project. Please include a short "title" summarizing the idea, and then a short description (a few sentences or a paragraph). Submit on Canvas, and share on the Slack #project channel:
    * If you feel like you're ready (you probably are!), please post directly to the #project channel on Slack
-      * Others can provide feedback, or potentially join forces
+      * Others can provide feedback, or potentially join forces!
       * Remember that this is non-binding and your project will inevitably change as you continue refining and start the work
-   * Send a direct message to the instructor and TA on Slack
-      * Instructor/TA will attempt to provide feedback and answer lingering questions
-      * When ready, please post updated/refined idea to #project channel
+   * If you are still unsure and not ready to share with the class, send a direct message to the instructor and TA on Slack
+      * We will attempt to provide feedback and answer lingering questions
+      * When ready, please post to #project channel
 
 ### Week 6: Review Summaries, Continue Refining, Additional Group Formation
 * Review the lists of project summaries on the #project channel
    * Offer feedback, ask questions, suggestions for datasets
-* If you see potential opportunities to work with others, follow up with them on Slack! Or continue with an individual project!
+* If you see potential opportunities to work with others, or discuss shared needs, follow up with them on Slack.
    * For group projects, start discussing next steps with your team, defining roles, dividing tasks
 * Start preparing more detailed project outline (see below)
 
