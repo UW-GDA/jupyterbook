@@ -14,13 +14,16 @@ Review some of the excellent examples from Automating GIS processes course at th
 
 **Please focus on the sections listed for each lesson, but you are more than welcome to explore other sections of this great site!**
 
-* *Optional*: Review Lesson 2 on Vector Data and GeoPandas: https://autogis-site.readthedocs.io/en/latest/lessons/L2/overview.html
-* Lessons 3: https://autogis-site.readthedocs.io/en/latest/lessons/L3/overview.html
+* [Shapely and geometry objects](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-1/geometry-objects.html)
+* *Optional*: Review [Lesson 2](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-2/overview.html) on Vector Data and GeoPandas if you need a referesher
+* [Lesson 3](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-3/overview.html)
     * Point in Polygon & Intersect
     * Spatial Join
-* Lesson 4: https://autogis-site.readthedocs.io/en/latest/lessons/L4/overview.html
-    * Geometric Operations
-* Lesson 5: https://autogis-site.readthedocs.io/en/latest/lessons/L5/overview.html
+* [Lesson 4](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-4/overview.html)
+   * Overview Analysis
+   * Aggregating data
+   * Simplyfing geometries
+* [Lesson 5](https://autogis-site.readthedocs.io/en/latest/lessons/lesson-5/overview.html)
     * Static maps
     * Interactive maps
 
