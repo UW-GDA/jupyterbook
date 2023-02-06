@@ -1,4 +1,4 @@
-# 10: Conda, Dask, Pangeo
+# 10: Managing Environments and Scaling - Conda, Dask, rioxarray
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
@@ -6,9 +6,12 @@ David Shean
 
 We made it to Week 10! No formal assignment this week, so please use the time to work on your final projects. 
 
-During class, we will discuss conda and the simple steps needed to migrate from the course Jupyterhub to your local computer.
+## Overview
+During class, we will discuss conda/mamba and the simple steps needed to migrate from the course Jupyterhub to your local computer.
 
 We will also explore options to scale processing for larger datasets and more complex workflows using Dask for distributed computing and see some examples from the Pangeo project.
+
+This is a bit of a catch-all week, and we will focus on the material that is most relevant to student needs and interests.
 
 ## Environment setup
 
@@ -21,8 +24,6 @@ We will also explore options to scale processing for larger datasets and more co
 
 ### Migrating from course Jupyterhub
 * [Notes and instructions](../../resources/jupyterhub_migration.md)
-
-
 
 ## Distributed processing
 ### GNU parallel
