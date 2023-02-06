@@ -1,9 +1,10 @@
-# 06: Geometries, Spatial Operations, Visualization
+# 06: Vector 2 - Geometries, Spatial Operations, Visualization
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
 David Shean  
 
+## Overview
 This week, we are going to revisit vectors, geometry operations, spatial/attribute joins, and more sophisticated visualization.  We will illustrate some of these concepts with the GLAS point dataset and the U.S. State outlines.
 
 ## Reading and Tutorials
