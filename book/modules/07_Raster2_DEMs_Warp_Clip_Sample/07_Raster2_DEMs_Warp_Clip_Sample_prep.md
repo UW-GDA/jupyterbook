@@ -1,9 +1,10 @@
-# 07: Reprojection, Clipping, Sampling, Zonal Stats 
+# 07: Raster 2 - Reprojection, Clipping, Sampling, Zonal Stats 
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
 David Shean  
 
+## Overview
 This week, we are going to revisit rasters. We will cover common operations and strategies, including reprojection, clipping, sampling strategies, zonal statistics, and creating rasters from unstructured point data.
 
 ## Reading and Tutorials
