@@ -1,17 +1,69 @@
-# Conda and Jupyter Setup Instructions
+# Environment Setup and Package Management
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
 Friedrich Knuth and David Shean  
 
-## [What is conda?](https://conda.io/en/latest/)
+## I need a Python package that it is not available in default environment on the hub
+No fear! You can easily install new packages from the shell or directly in the notebook. 
+
+Start by reading the install instructions for the package - if conda/mamba is listed as an option, use that instead of pip (see more below).
+
+> **_NOTE:_** This following is not a permanent installation, and the package will only be available during the current session. You will need to reinstall each time your Jupyterhub server restarts. Slightly inconvenient, but reproducible. We will talk more about permanent installs and creating environments later in the quarter.
+
+### Install a package named `coolpackage` in the notebook with current kernel
+Create a new cell near the top of the notebook before `import` statements, and add the following:
+
+#### using conda:
+```
+import sys
+!conda install --yes --prefix {sys.prefix} coolpackage
+```
+Note: the `--yes` will automatically answer "yes" to the interactive prompt about whether to proceed with the install.
+
+#### using pip:
+```
+import sys
+!{sys.executable} -m pip install coolpackage
+```
+
+Assuming this was successful, in a subsequent cell, you should be able to use the recommended syntax from the package documentation to start using the package (e.g., `import coolpackage` or `from coolpackage import coolfunction`). 
+
+### Install a package named `coolpackage` from the command line
+Use an open Terminal or launch a new Terminal and run the following command:
+```
+conda install mypackage
+```
+or
+```
+pip install mypackage
+```
+
+You can then launch a new notebook or restart the kernel in an open notebook, and start using.
+
+### More information
+* [https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/](https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#How-to-use-Conda-from-the-Jupyter-Notebook)
+
+## Conda, mamba, pip
+### What is [`conda`](https://conda.io/en/latest/)?
+>Conda is a cross-platform, language-agnostic binary package manager.
 * See the first few sections of the User Guide:
   * https://docs.conda.io/projects/conda/en/latest/user-guide/index.html
   * https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/
 
-### What is mamba?
-* https://mamba.readthedocs.io/en/latest/
->a Python-based CLI conceived as a drop-in replacement for conda, offering higher speed and more reliable environment solutions
+### What is [`mamba`](https://mamba.readthedocs.io/en/latest/)?
+>a Python-based CLI conceived as a drop-in replacement for conda , offering higher speed and more reliable environment solutions.
+>Mamba is a fast, robust, and cross-platform package manager
+
+### What is [`pip`](https://pip.pypa.io/en/stable/)?
+>pip is the package installer for Python. You can use it to install packages from the Python Package Index and other indexes.
+
+### How to choose?
+Approaches for Python package management are constantly improving, and there is outdated documentation on the web, which can be confusing.
+
+In general, we recommend using `mamba` or `canda` rather than `pip` to install packages, unless they are only available on `pip`. 
+
+A good resource: https://jakevdp.github.io/blog/2017/12/05/installing-python-packages-from-jupyter/#pip-vs.-conda
 
 ## Basic terminology
 #### package manager 
@@ -33,7 +85,6 @@ _source for packages_
 https://docs.conda.io/projects/conda/en/latest/user-guide/concepts/channels.html
 
 ## Why?
-
 But I already have Python installed on my computer, why do I need this?
 
 # How to reproduce the GDA JuptyerHub environment
