@@ -94,6 +94,9 @@ That may sound like a lot, but some of these items should only be 1-2 sentences,
    * data (if applicable) - make sure filesize (<20 MB) and total number of files (<20) is limitied.
    * doc (if applicable) for any additional documentation, static images you want to include in notebooks or markdown files, etc.
 * Start adding and developing notebooks, code, markdown files, etc.
+* If you need to use additional packages that are not available in default environment on the hub, see instructions [here](../conda.md)
+
+#### Recommendations
 * Start with limited test case(s) for initial development and exploration:
    * Extract a small region of a large raster
    * If you need the entire raster, start with a downsampled version, then when you're happy with methods, run for native resolution
