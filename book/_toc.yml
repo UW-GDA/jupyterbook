@@ -61,8 +61,8 @@ parts:
     - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_prep
       sections:
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_LS8_download
-      - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_Demo
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_Intro_array_masking_indexing
+      - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_demo
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_Part1_exercises
       - file: modules/05_Raster1_GDAL_rasterio_LS8/05_Raster1_GDAL_rasterio_LS8_Part2_exercises
 
