@@ -14,21 +14,26 @@ https://snowex-hackweek.github.io/website/preliminary/jupyterhub.html
 Please try to remember to shut down your server and log out of the Jupyterhub when you're done for the day. This will help save money (we'd like to avoid paying for cloud computing resources while you're sleeping), and provides a clean start the next time you log in, which can help avoid various issues listed below.
 
 ### Troubleshooting
+If you are experiencing strange behavior with the course Jupyterhub, please try the following:
 
 #### 1. Reload the tab in your browser
 * Can resolve issues with notebook cells that appear strange or "cut off"
 * If you have unsaved changes, save the notebook, then reload
 
-#### 2. Restart Jupyterhub Server
+#### 2. Log out and reauthenticate
+* File -> Log out
+* Click "Sign in" button and reauthenticate with UW netid Canvas credentials
+
+#### 3. Restart Jupyterhub Server
 * All students have the ability to stop and restart their own server on the Jupyterhub (don’t need to ask instructor or IT).
 * **File --> Hub Control Panel --> Stop My Server (wait a ~30 seconds, then start again)**
 * After image is updated (e.g., new packages added to default conda environment), all users will need to restart their server to see changes.
 
-#### 3. Review the list of common errors and solutions below
+#### 4. Review the list of common errors and solutions below
 
-#### 4. Post a message to #IT_help on the class Slack workspace
+#### 5. Post a message to `#it_help` channel on the class Slack workspace
 * Important to post to public channel, as other students can chime in to help, and if this is a larger issue, confirm similar experiences
-* Provide detailed report, with copy/paste of error messages, screenshots, etc. to help diagnose
+* Provide detailed report - copy/paste error messages, include screenshots, etc. so we can help diagnose
 * Course instructor and IT help will provide assistance
 
 ### Common Jupyterhub Errors
@@ -43,9 +48,30 @@ Please try to remember to shut down your server and log out of the Jupyterhub wh
 
 #### `File Save Error for *.ipynb` or `Failed to write *.ipynb`
  * Temporary network interruption, dismiss and try manually saving
- * Check to make sure you haven't filled the disk (available storage in your home directory)
-     * `cd ~ ; df .` (should be less than 100%)
-     * If disk is full, delete some files from `/home/jovyan`
+ * Check to make sure you haven't filled the your allocated home directory storage (see below) 
+
+#### `Spawn failed: Server at .... didn't respond in 30 seconds`
+ * This occurs when attempting to log into the hub, and the server fails to start (don't panic)
+ * Likely an issue with a full disk.
+ * Reach out on `#it_help` Slack channel with a screenshot, and we will follow up with UW-IT (should be resolved quickly)
+ * See section on managing storage below to avoid this problem.
+
+### Managing data storage and disk space
+ * The default storage allocation for each student is 5 or 10 GB, which should be sufficient for the assignments. For project work, we can increase the storage allocation.
+ * Please make sure you are not storing multiple copies of large data directories.
+ * Always use relative paths to load data from existing data directories elsewhere on the filesystem (like the `LS8_sample` directory), rather than copying them to your assignment repo. 
+    * In the real world, you (or your employer) have to pay for every GB per month, so good to learn best practices now.
+ * You can also safely delete large data directories from previous demo/labs, as you can rerun the data download notebooks to download in the future.
+
+#### Checking current storage and available disk space
+ * Open a Terminal on the hub and run:
+    * `du -s -h ~/*` - shows you total data volume in each directory, can `cd` and rerun to identifiy large subdirectories/files
+    * `df -h ~` - shows total available storage and amount/percent used
+
+#### Freeing up storage
+* If your `df` percentage is >80%, please do the following:
+    * Delete large data files/directories that are no longer necessary or can be easily downloaded again in the future.
+    * Reach out on the `#it_help` Slack channel or send a direct message, and we can request more storage. Please don't hesitate to do this if you will need more temporary storage for projects. 
 
 ### Initial Instructor Setup
 
