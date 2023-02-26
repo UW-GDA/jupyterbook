@@ -70,6 +70,7 @@ parts:
       sections:
       - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_demo
       - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_exercises
+      - file: modules/06_Vector2_Geometries_SpatialOps_Viz/06_Vector2_Geometries_SpatialOps_Viz_interactive_exercises.ipynb
 
     - file: modules/07_Raster2_DEMs_Warp_Clip_Sample/07_Raster2_DEMs_Warp_Clip_Sample_prep
       sections:
