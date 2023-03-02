@@ -81,6 +81,30 @@ git merge newbranch
 git checkout -d newbranch
 ```
 
+## Jupyterbook
+There is a rendered version of the Jupyterbook on the course website: https://uwgda-jupyterbook.readthedocs.io. These html pages are automatically generated from the content (mostly markdown files and Jupyter notebooks) in a Github repository: https://github.com/UW-GDA/jupyterbook. The notebooks can be explored interactively, but you will need a local copy on the hub.
+
+On the course Jupyterhub, open a new Terminal and run the following from your home directory:
+`cd ~; git clone https://github.com/UW-GDA/jupyterbook.git`
+
+This will create a new directory `/home/jovyan/jupyterbook` and download all of the latest course material. From the File Browser, you can navigate to `jupyterbook/book/modules/` and then open the notebooks for the lecture/demo to follow along interactively running the same commands.
+
+Note that there is also a copy of the exercises notebooks in each of these module subdirectories. Please don't use them! Work on the exercises notebooks from the Github Classroom assignment repository that you cloned.
+
+### Pulling latest version of the Jupyterbook
+The content of the book will be updated throughout the quarter, including the interactive demo notebooks. To pull the latest versions to your cloned repo on the Jupyterhub:
+1. `cd /home/jovyan/jupyterbook`
+2. `git status`
+    * If you made local changes to the demos in previous weeks (i.e. executing cells), you will see some red text with `modified:` followed by a filename. Unfortunately, your notebook is now different than the main version in the Github repo, so you can't just do a simple `git pull`. 
+3. There are many ways to handle this:
+    * The simplest (recommended) option is to discard all local changes and do a "hard reset" to the latest version of the tracked files on Github: `git reset --hard; git pull`
+        * You will lose any modifications you've made to the notebooks, but this will preserve other "untracked" files in the local directory (i.e., data files)
+        * Your local version of all notebooks will be identical to the latest versions on Github
+    * If you would like to preserve local changes (maybe notes you took during a previous demo, or some additional experimentation in the demo notebook): `git pull --autostash`
+        * This will "stash" any local changes that can later be recovered and committed if desired. See https://www.atlassian.com/git/tutorials/saving-changes/git-stash for more details.
+     * Other solutions involving branching to preserve local changes: https://stackoverflow.com/questions/1125968/how-do-i-force-git-pull-to-overwrite-local-files
+
+
 ## FAQ, Notes
 
 ### Improved git log formatting
