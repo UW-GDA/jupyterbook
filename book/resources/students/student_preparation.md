@@ -30,8 +30,11 @@ If you have some programming/Python experience, but you are new to GIS, you can 
 Regardless of your past programming or GIS experience, I suggest that you select an appropriately sized task that you currently perform manually or some other way (e.g., R/Matlab, ArcGIS, MS Excel), and force yourself to implement in Python. Do your best with Google searches, Stack Overflow and reviewing sample code on Github. The process will be frustrating, slow, and messy. You will feel uncomfortable (especially if you're used to being good at stuff), but it’s really the best way to learn, as you have a vested interest in solving the problem. Maybe nicely ask a friend or family member with some Python experience if they can provide some guidance and help keep you on track if you get stuck. 
 
 ## Recommended preparation (or permission from instructor)
-* Introductory scientific computing, programming course (or equivalent experience)
-    * e.g., CEE505, 100-200 level CSE courses, AMATH scientific computing
+* At least one introductory programming or scientific computing course (or equivalent experience)
+    * Software Development for Data Scientists (CSE 583): https://uwseds.github.io/
+    * Engineering Computing (CEE 505): https://www.washington.edu/students/icd/S/cee/505pmackenz.html
+    * 100-200 level CSE course: https://www.cs.washington.edu/academics/ugrad/nonmajor-options/intro-courses
+    * AMATH scientific computing course
     * Understand basic programming constructs (variables, data types, loops, conditionals, functions, file I/O)
     * Guide on intro programming options at UW: https://courses.cs.washington.edu/courses/cse140/13wi/which-programming-class.html
 * Introductory GIS course (or equivalent experience)
