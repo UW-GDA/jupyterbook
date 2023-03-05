@@ -2,10 +2,10 @@
 
 UW Geospatial Data Analysis  
 CEE467/CEWA567  
-Friedrich Knuth and David Shean  
+David Shean and Friedrich Knuth  
 
-## I need a Python package that it is not available in default environment on the hub
-No fear! You can easily install new packages from the shell or directly in the notebook. 
+## How to install a Python package on the hub
+As you research your projects, you will likely discover some useful packages are not available in the default environment on the Jupyterhub. You can easily install new packages from the shell or directly in a notebook. 
 
 Start by reading the install instructions for the package - if conda/mamba is listed as an option, use that instead of pip (see more below).
 
@@ -92,22 +92,17 @@ But I already have Python installed on my computer, why do I need this?
 ## Install Conda
 *Note: If you have an existing conda install, you can skip this section and go straight to 'Create the GDA environment' section.  You may want to `conda update conda` if it's been a while since you installed.*
 
-Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/distribution/). 
-* Miniconda gives you just the conda package manager, while Anaconda provides the same package manager along with a large set of common Python packages.
+Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/distribution/) for your operating system and architecture. 
+* Miniconda installs just the conda package manager, while Anaconda provides the same package manager along with a large set of common Python packages.
 * While Anaconda may be easiest for beginners, we recommend miniconda for a more a lighter, faster, more customizable installation that requires less disk space.
+  * Read more: https://conda.io/projects/conda/en/latest/user-guide/install/download.html#anaconda-or-miniconda 
 
-Follow the instructions for installation: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
-
-Select yes to initialize conda.  Close your terminal/shell, then open a new terminal session and type `conda` to verify a successfull installation. 
-
-Run the following to see various useful info about your install:
-`conda info`
-
-Update to latest version of conda:
-`conda update conda`
-
-Install mamba:
-`conda install mamba`
+1. Follow the official instructions for installation: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+  * Accept the license and select `yes` to initialize conda.
+1. Close your terminal/shell, then open a new terminal session and type `conda` to verify a successfull installation. You should see `usage: conda [-h] [-V] command ...` followed by a bunch of options
+1. Run the following to see various useful info about your install: `conda info`
+1. Update to latest version of conda: `conda update conda`
+1. Install mamba: `conda install mamba`
 
 ## Create the GDA environment
 
@@ -122,34 +117,37 @@ This configuration file contains all of the packages/versions we used on the Jup
     * Note that we may have "pinned" version numbers for some packages (e.g., `- python=3.9`).
       * This is not necessary, but is a best practice for our classroom situation. Because many of these projects are under active development, new versions are released during the quarter, potentially changing/breaking some functionality. 
       * For your personal setup, you can remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the existing GDA notebooks will run out of the box).
+1. Make sure you are in the `base` conda environment: `conda activate base`
 1. Create the `uwgda2023` conda environment on your local machine
-    * Open a terminal on your machine, and run the following: `conda env create -f environment.yml`
+    * Open a terminal on your machine, and run the following: `mamba env create -f environment.yml`
+      * Alternative is to use: `conda env create -f environment.yml`
     * This will take a few minutes to download and unzip all of the packages.
-    * If this fails, please post the error message to the #it_help Slack channel
-    * You can try installing with mamba: `mamba env create -f environment.yml`
-1. Activate the `uwgda2023` environment, 
-    * `conda activate uwgda2023`
+    * If this fails, please post the error message to the `#it_help` Slack channel 
+1. Activate the `uwgda2023` environment: `conda activate uwgda2023`
     * You should see a slightly different terminal prompt display with `(uwgda2023)`
-    * Now when you type `python` it should run the python executable in the new conda environment, and all of the GDA packages will be available!  Try it, run `python`, then `import geopandas` (shouldn't see any errors), then `exit()`
+    * Now when you type `python` it should run the python executable in the new conda environment, and all of the GDA packages will be available!
+      * Try it, run `python`, then `import geopandas` (shouldn't see any errors), then `exit()`
 1. Configure the Jupyterlab extensions
     * Latest version of these extentions don't require additional configuration after install.
     * Can verify everything with `jupyter labextension list` (should see "enabled OK" for at least 6 extensions)
 
-Note that once this setup is complete, you will need to `conda activate uwgda2023` when you start a new terminal (including after you restart your computer), but you don't need to recreate the environment.  You can consider adding `conda activate uwgda2023` to your `~/.bashrc` or '~/.bash_profile` files.
+Note that once this setup is complete, you will need to `conda activate uwgda2023` when you start a new terminal (including after you restart your computer), but you don't need to recreate the environment.  You can consider adding `conda activate uwgda2023` to your `~/.bashrc` or `~/.bash_profile` files.
 
 ## Starting Jupyter lab
 
-Once you have created the environment, activated the environment, and installed Jupyter lab extensions, open a terminal and navigate to the local directory where you store your notebooks/code (either lab/project repos from class that you `git clone` to local directory, or location where you will create new notebooks locally).  This could be something like `~/Documents/gda_course_2023/`.
+Once you've successfully created and activated the `uwgda2023` environment, open a terminal and `cd` to the local directory where you store your notebooks/code (`~` or lab/project repos that you previously cloned to a local directory, or location where you plan create new notebooks).  This could be something like `~/Documents/gda_course_2023/`.
 
 Then from the terminal, start Jupyter lab with the command: `jupyter lab`
 
 This should automatically open a new window/tab in your local browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment!
 
-Note that the corresponding url will be printed in your terminal.  Something like `http://localhost:8888/?token=8c2ec9dc22517fac7323334fec7224e7eff07275c2f648e8`.  If you accidentally close the tab, you can just paste this url in the browser (no need to restart jupyter).
+Note that the corresponding url will be printed in your terminal.  Something like `http://localhost:8888/?token=8c2ec9dc22517fac7323334fec7224e7eff07275c2f648e8`.  If you accidentally close the tab, you can just copy this url from the terminal and paste in a browser (no need to restart jupyter).
 
-To end your jupyter lab session, you can close the tab, but the Jupyter lab server is still running.  To stop the server, on the command line you can `Ctrl-C` in the same window/terminal where you ran `jupyter lab`, then select 'y' to shut down the server.  From the open Jupyter lab tab, you can also "File -> Shut Down".
+To end your jupyter lab session, you can close the tab, but the Jupyter lab server is still running.  To stop the server:
+  * From the open Jupyter lab tab, "File -> Shut Down".
+  * From the command line you can `Ctrl-C` in the same window/terminal where you ran `jupyter lab`, then select 'y' to shut down the server.  
 
-## Removing or starting over
+## Updating environments, removing or starting over
 
 See https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-environments.html
 
@@ -179,7 +177,7 @@ Generally, it is safe to grab the latest packages from conda-forge, which is usu
 
 Let's add the conda-forge channel, by typing the following into your terminal:
 
-`conda config --add channels conda-forge`
+`conda config --add channels conda-forge`  
 `conda config --set channel_priority strict`
 
 This adds the conda-forge channel to your conda configuration file located in your home directory (`~/.condarc`). You only need to do this once. Now, when creating a new environment conda will first look for a package on conda-forge, then on the default anaconda distribution channel.
@@ -238,11 +236,11 @@ In this case we are updating 'geopandas' to the latest version.
 
 <b>Create an environment with specific version of a package</b>
 
-`conda create -n my_favorite_env geopandas==0.3.0 matplotlib`
+`conda create -n my_favorite_env geopandas==0.7.0 matplotlib`
 
 <b>Create an environment with a specific version of Python</b>
 
-`conda create -n my_favorite_env python=2.7 geopandas matplotlib`
+`conda create -n my_favorite_env python=3.9 geopandas matplotlib`
 
 ## Jupyter integration
 
