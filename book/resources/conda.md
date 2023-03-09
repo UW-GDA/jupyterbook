@@ -96,14 +96,29 @@ Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/
 * Miniconda installs just the conda package manager, while Anaconda provides the same package manager along with a large set of common Python packages.
 * While Anaconda may be easiest for beginners, we recommend miniconda for a more a lighter, faster, more customizable installation that requires less disk space.
   * Read more: https://conda.io/projects/conda/en/latest/user-guide/install/download.html#anaconda-or-miniconda 
+  * For Windows users, it seems 
 
 1. Follow the official instructions for installation: https://conda.io/projects/conda/en/latest/user-guide/install/index.html
+  * Make sure you select the appropriate architecture for your local system (64-bit, Intel vs M1/AMD processor for mac)
   * Accept the license and select `yes` to initialize conda.
-1. Close your terminal/shell, then open a new terminal session and type `conda` to verify a successfull installation. You should see `usage: conda [-h] [-V] command ...` followed by a bunch of options
-1. Run the following to see various useful info about your install: `conda info`
-1. Update to latest version of conda: `conda update conda`
-1. Add the `conda-forge` channel: `conda config --add channels conda-forge`
-1. Install mamba: `conda install mamba`
+2. Open a new terminal session and run `conda` to verify a successfull installation. You should see `usage: conda [-h] [-V] command ...` followed by a bunch of options
+3. Run the following to see useful info about your install: 
+```
+conda info
+```
+4. Update to latest version of conda: 
+```
+conda update conda
+```
+5. Add the `conda-forge` channel: 
+```
+conda config --add channels conda-forge
+conda config --set channel_priority strict
+```
+6. Install mamba: 
+```
+conda install mamba
+```
 
 ## Create the GDA environment
 
@@ -116,36 +131,49 @@ This configuration file contains all of the packages/versions we used on the Jup
     * View it with a text editor and note that it is basically just a list of package names (many you will recognize from this course).
     * The first line `uwgda2023` defines the conda environment name.
     * Note that we may have "pinned" version numbers for some packages (e.g., `- python=3.9`).
-      * This is not necessary, but is a best practice for our classroom situation. Because many of these projects are under active development, new versions are released during the quarter, potentially changing/breaking some functionality. 
-      * For your personal setup, you can remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the existing GDA notebooks will run out of the box).
-1. Make sure you are in the `base` conda environment: `conda activate base`
-1. Create the `uwgda2023` conda environment on your local machine
-    * Open a terminal on your machine, and run the following: `mamba env create -f environment.yml`
-    * This will take a few minutes to download and unzip all of the packages.
-    * If this fails, please post the error message to the `#it_help` Slack channel 
-1. Activate the `uwgda2023` environment: `conda activate uwgda2023`
-    * You should see a slightly different terminal prompt display with `(uwgda2023)`
-    * Now when you type `python` it should run the python executable in the new conda environment, and all of the GDA packages will be available!
-      * Try it, run `python`, then `import geopandas` (shouldn't see any errors), then `exit()`
-1. Configure the Jupyterlab extensions
-    * Latest version of these extentions don't require additional configuration after install.
-    * Can verify everything with `jupyter labextension list` (should see "enabled OK" for at least 6 extensions)
+        * This is not necessary, but is a best practice for our classroom situation. Because many of these projects are under active development, new versions are released during the quarter, potentially changing/breaking some functionality. 
+        * For your personal setup, you can remove the version numbers, so conda will automatically fetch the latest version of each package, and you can access latest features (but no guarantee that the existing GDA notebooks will run out of the box).
+2. Make sure you are in the `base` conda environment: 
+```
+conda activate base
+```
+3. Create the `uwgda2023` conda environment on your local machine. Open a terminal on your machine, and run the following, substituting the appropriate path to your `environment.yml` file: 
+```
+mamba env create -f environment.yml
+```
+   * This may take a few minutes to solve for environment, download and unzip all of the packages.
+   * If this fails, please post the error message to the `#it_help` Slack channel 
+4. Activate the `uwgda2023` environment: 
+```
+conda activate uwgda2023
+```
+   * You should see a slightly different terminal prompt display with `(uwgda2023)`
+   * Now when you type `python` it should run the python executable in the new conda environment, and all of the GDA packages will be available!
+      * Try it! run `python`, then `import geopandas` (shouldn't see any errors), then `exit()`
+5. Verify Jupyterlab extensions
+```
+jupyter labextension list
+```
+   * Should see "enabled OK" for at least 6 extensions
 
-Note that once this setup is complete, you will need to `conda activate uwgda2023` when you start a new terminal (including after you restart your computer), but you don't need to recreate the environment.  You can consider adding `conda activate uwgda2023` to your `~/.bashrc` or `~/.bash_profile` files.
+Note that once this setup is complete, you will need to `conda activate uwgda2023` when you start a new terminal (including after you restart your computer), but you don't need to recreate the environment.  You can consider adding `conda activate uwgda2023` to your `~/.bashrc` or `~/.bash_profile` files to make this permanent.
 
 ## Starting Jupyter lab
 
 Once you've successfully created and activated the `uwgda2023` environment, open a terminal and `cd` to the local directory where you store your notebooks/code (`~` or lab/project repos that you previously cloned to a local directory, or location where you plan create new notebooks).  This could be something like `~/Documents/gda_course_2023/`.
 
-Then from the terminal, start Jupyter lab with the command: `jupyter lab`
+Then from the terminal, start Jupyter lab with the command
+```
+jupyter lab
+```
 
 This should automatically open a new window/tab in your local browser and bring up the jupyter lab interface. Now, you can open and run the GDA course notebooks, or create your own notebooks with the GDA environment!
 
 Note that the corresponding url will be printed in your terminal.  Something like `http://localhost:8888/?token=8c2ec9dc22517fac7323334fec7224e7eff07275c2f648e8`.  If you accidentally close the tab, you can just copy this url from the terminal and paste in a browser (no need to restart jupyter).
 
-To end your jupyter lab session, you can close the tab, but the Jupyter lab server is still running.  To stop the server:
-  * From the open Jupyter lab tab, "File -> Shut Down".
-  * From the command line you can `Ctrl-C` in the same window/terminal where you ran `jupyter lab`, then select 'y' to shut down the server.  
+To end your jupyter lab session, you can close the tab in your browser, but the Jupyter lab server is still running.  To stop the server:
+* From the open Jupyter lab tab, "File -> Shut Down".
+* From the command line you can `Ctrl-C` in the same terminal where you ran `jupyter lab`, then select 'y' to shut down the server.  
 
 ## Updating environments, removing or starting over
 
@@ -153,9 +181,7 @@ See https://docs.conda.io/projects/conda/en/latest/user-guide/tasks/manage-envir
 
 Most of the time, you should be able to `conda update`, or manage environments to add/remove packages.
 
-One of the best things about conda is the fact that it creates isolated environments, separate from your system Python. So if you no longer need it, or you have unresolvable issues, you can always just delete and start over with a fresh install.
-
-https://docs.anaconda.com/anaconda/install/uninstall/
+One of the best things about conda is the fact that it creates isolated environments, separate from your system Python. So if you no longer need it, or you have unresolvable issues, you can always just remove and recreate the environment. You can also start over with a fresh install of conda: https://docs.anaconda.com/anaconda/install/uninstall/
 
 # Creating a custom setup from scratch
 
@@ -177,8 +203,10 @@ Generally, it is safe to grab the latest packages from conda-forge, which is usu
 
 Let's add the conda-forge channel, by typing the following into your terminal:
 
-`conda config --add channels conda-forge`  
-`conda config --set channel_priority strict`
+```
+conda config --add channels conda-forge 
+conda config --set channel_priority strict
+```
 
 This adds the conda-forge channel to your conda configuration file located in your home directory (`~/.condarc`). You only need to do this once. Now, when creating a new environment conda will first look for a package on conda-forge, then on the default anaconda distribution channel.
 
