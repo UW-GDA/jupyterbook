@@ -102,6 +102,7 @@ Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/
 1. Close your terminal/shell, then open a new terminal session and type `conda` to verify a successfull installation. You should see `usage: conda [-h] [-V] command ...` followed by a bunch of options
 1. Run the following to see various useful info about your install: `conda info`
 1. Update to latest version of conda: `conda update conda`
+1. Add the `conda-forge` channel: `conda config --add channels conda-forge`
 1. Install mamba: `conda install mamba`
 
 ## Create the GDA environment
@@ -120,7 +121,6 @@ This configuration file contains all of the packages/versions we used on the Jup
 1. Make sure you are in the `base` conda environment: `conda activate base`
 1. Create the `uwgda2023` conda environment on your local machine
     * Open a terminal on your machine, and run the following: `mamba env create -f environment.yml`
-      * Alternative is to use: `conda env create -f environment.yml`
     * This will take a few minutes to download and unzip all of the packages.
     * If this fails, please post the error message to the `#it_help` Slack channel 
 1. Activate the `uwgda2023` environment: `conda activate uwgda2023`
