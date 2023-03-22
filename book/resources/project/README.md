@@ -143,10 +143,20 @@ You all know each other by now, and you know that this is a friendly, open, supp
     * Update the README with information about the notebooks used during processing and provide a clear indication of which notebooks contain the final results
       * Help someone who is unfamiliar with your project quickly find the good stuff! 
 * Submit the Github url for your final project repo on Canvas before midnight on Friday of final exam week
-* Optional: make your repo visible to the world! Just need to switch from private to public visibililty:
-   * From the "Settings" tab, scroll down to the Danger Zone and click "Change Visibility"
+* Celebrate!
+
+### Optional: Share your amazing work!
+You have two options - share with the world or only share with other students in the class. It's up to you, but if you are comfortable sharing and there are no issues involving proprietary data, I suggest sharing with the world (colleagues, advisors, friends, family, future employers!):
+1. To share the repo with the class:
+   * Go to "Settings" tab (with gear icon) below repo name
+   * From left menu, select "Collaborators and Teams"
+   * Click the big green "Add Teams" button
+   * Type in `gda_w20XX_students` (replacing XX with current year). The student team should appear in results - click it.
+   * Grant "read" access so others can see your repo, but not modify
+2. To make the repo public and share with the world:
+   * From the "Settings" tab, scroll all the way down to the `Danger Zone` and click "Change Visibility"
    * Select "Make Public" and type the repo name in the prompt
-   * Share the url with others!
+   * Proudly share the repo url with others!
 
 ## Sample project ideas
 Several groups and individuals from previous years made their GDA projects public within the GDA Organization (you should too!). You are encouraged to review these samples for inspiration and some guidance.
