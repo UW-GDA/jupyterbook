@@ -12,6 +12,7 @@ parts:
       - file: resources/students/student_preparation.md
       - file: resources/students/student_initial_setup.md
       - file: resources/students/student_weekly_workflow.md
+      - file: resources/students/student_testimonials.md
     - file: resources/instructors/README
       sections:
       - file: resources/instructors/instructor_initial_setup.md
