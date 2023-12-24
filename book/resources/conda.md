@@ -93,6 +93,12 @@ But I already have Python installed on my computer, why do I need this?
 *Note: If you have an existing conda install, you can skip this section and go straight to 'Create the GDA environment' section.  You may want to `conda update conda` if it's been a while since you installed.*
 
 Downloand and install the Python 3 version of [Miniconda](https://docs.conda.io/en/latest/miniconda.html) or [Anaconda](https://www.anaconda.com/distribution/) for your operating system and architecture. 
+
+* *Note: If you are using Windows, I recommend the Ubuntu app which utilizes the Windows subsystem for Linux. You can go to the microsoft store and download the Ubuntu app and follow the instructions on the store page.
+These are those instructions (after downloading the app):*
+  - *Search for "Turn Windows features on or off" in the Windows search bar and ensure that "Windows Subsystem for Linux" is turned on before restarting your machine.*
+  - *To launch, use "ubuntu" on the command-line prompt or Windows Terminal, or click on the Ubuntu tile in the Start Menu.*
+  - *You can then proceed to download and install conda on the Ubuntu app as if it were a Linux machine.*
 * Miniconda installs just the conda package manager, while Anaconda provides the same package manager along with a large set of common Python packages.
 * While Anaconda may be easiest for beginners, we recommend miniconda for a more a lighter, faster, more customizable installation that requires less disk space.
   * Read more: https://conda.io/projects/conda/en/latest/user-guide/install/download.html#anaconda-or-miniconda 
