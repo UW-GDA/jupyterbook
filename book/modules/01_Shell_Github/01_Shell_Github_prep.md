@@ -10,10 +10,10 @@ Please quickly read through this entire document once, then go back and start ta
 We are going to “flip the classroom” for the first two weeks. Before class, you will be responsible for reviewing material from external resources. Consider this your week 1 homework. During our Wednesday and Friday meetings, I will briefly review some of this material and do an interactive demo, we will discuss questions and clarify concepts as a class, and then collaboratively work on some problems/exercises to help solidify the concepts (which will inevitably lead to more questions and discussion). I think this is the best use of our limited time together.
 
 ## Logistics - *Complete before first Wednesday lecture*
-* Review the syllabus: https://docs.google.com/document/d/1fS43OpTLcobo982Ip4TWsD-m5mefPemque7uNT-wZG0/edit?usp=sharing 
+* Review the syllabus: https://docs.google.com/document/d/1HsvhSusL-nVxATx9xoWf18ss3H36ufN5_-Z1O8bkZ2w/edit?usp=sharing
     * Access using your UW Google account, not personal Google account
     * I’ve enabled comments on the Google Doc, so if you find any mistakes or have questions/suggestions, please add comments inline, and/or come to class ready to ask questions.
-* Fill out the background questionnaire (access with UW Google account): https://forms.gle/JwUCBcQ7cdRQnsH6A
+* Fill out the background questionnaire (access with UW Google account): [https://forms.gle/JwUCBcQ7cdRQnsH6A](https://docs.google.com/forms/d/e/1FAIpQLScyLTXfw2aGlq421uHTV9CDSyMXl0s6hWfDrv_LxPn61j_obQ/viewform?usp=sf_link)
     * Don't overthink this, it shouldn't take more than 5-10 minutes to fill out!
 * Review the course [Code of Conduct](../../resources/code_of_conduct.md) document.
 * Complete all of the items outlined in the [Student Initial Setup](../../resources/students/student_initial_setup.md) document.
@@ -49,6 +49,6 @@ If you’re stuck or confused, please send a message to the #01_shell_git Slack 
 
 ## Assignment: Due *this* Friday
 * Complete the above reading assignments
-* Fill out this form about the reading assignment: https://forms.gle/mgYEFmi7UYs5jhPz6
+* Fill out this form about the reading assignment: [https://forms.gle/mgYEFmi7UYs5jhPz6](https://forms.gle/NN6zHdAvpDd5B27y8)
 ## Outlook
 During week 2, we will review Python, iPython/Juptyer, and continue exploring the shell and git/github. There will be opportunities to continue learning all of this material throughout the course, but I want to reiterate that this is not an intro Python or intro programming class. By week 3, I’m hoping that everyone will be comfortable with the basics, and we can jump into some actual geospatial applications. With that said, I’ve intentionally kept the schedule flexible, so we can adjust as we go along - I need to calibrate after I get a better sense of everyone’s experience level.
