@@ -1,8 +1,9 @@
 # Geospatial Data Analysis with Python
 
-Course material from the Winter 2023 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
+Course material from the Winter 2024 offering of CEE467/CEWA567 (formerly CEE498/CEWA599) at the University of Washington
 
-[David Shean](https://www.ce.washington.edu/facultyfinder/david-shean)  
+2024 Instructor: Eric Gagliano 
+Material created by [David Shean](https://www.ce.washington.edu/facultyfinder/david-shean)  
 Civil and Environmental Engineering  
 University of Washington  
 
@@ -48,7 +49,7 @@ The course is organized into 10 week-long modules. Each module contains backgrou
 
 ## Try it!
 [![BinderHub](https://mybinder.org/badge_logo.svg)](https://mybinder.org/v2/gh/UW-GDA/uwgda-image-2023/main?urlpath=git-pull%3Frepo%3Dhttps%253A%252F%252Fgithub.com%252FUW-GDA%252Fjupyterbook%26urlpath%3Dlab%252Ftree%252Fjupyterbook%252Fbook%252Fmodules%26branch%3Dmain)
-Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2023. You can use the file browser on the left side to navigate and launch interactive notebooks in the `book/modules` directory.
+Clicking this badge will launch the GDA image and Jupyterlab environment on [mybinder.org](https://mybinder.org). This will provide the same environment that was available on the course Jupyterhub during winter 2024. You can use the file browser on the left side to navigate and launch interactive notebooks in the `book/modules` directory.
 
 *Note: this session is ephemeral and the hardware resources may be limited (~2-8 GB of RAM, limited disk space). Your home directory will not persist, so use this only for exploration and demos. Within the Jupterylab environment, you can always right-click on a file and download locally if you want to preserve your changes, or use git/github!*
 
