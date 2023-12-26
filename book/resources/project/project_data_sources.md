@@ -13,6 +13,12 @@ If you find others that should be included here, please open a PR to add or send
 * https://earthengine.google.com/
 * https://developers.google.com/earth-engine/datasets (different than Google Cloud public datasets)
 * https://github.com/giswqs/geemap - interactive GEE analysis and visualization in a Jupyter notebook using Python API (a nice alternative to the standard javascript IDE)
+* [Xee](https://github.com/google/Xee): An Xarray extension for Google Earth Engine (bring in data available on the Google Earth Engine Catalog for analysis in Xarray and python!).
+
+## Microsoft Planetary Computer
+* https://planetarycomputer.microsoft.com/
+* [Data catalog](https://planetarycomputer.microsoft.com/catalog) (some datasets may require a token to access, check documentation [here](https://planetarycomputer.microsoft.com/docs/concepts/sas/)) 
+* [Tutorials](https://github.com/microsoft/PlanetaryComputerExamples/tree/main/tutorials ) 
 
 ## Lidar
 * USGS 3DEP LidarExplorer: https://prd-tnm.s3.amazonaws.com/LidarExplorer/index.html#/
@@ -20,6 +26,7 @@ If you find others that should be included here, please open a PR to add or send
   * Can also use website interface to prepare a PDAL pipeline (https://pdal.io/) that can be run on the hub for on-demand data processing.
 * OpenTopography: https://opentopography.org/
   * Lidar and Global DEM with on-demand processing and API
+  * Collection of [Jupyter Notebooks](https://github.com/OpenTopography/OT_3DEP_Workflows) and [accompanying blog post](https://opentopography.org/blog/new-collection-jupyter-notebooks-enables-programmatic-access-cloud-hosted-usgs-3d-elevation) enableing programmatic access to cloud-hosted USGS 3D Elevation Program (3DEP) lidar data
 * WA DNR Lidar portal: https://lidarportal.dnr.wa.gov/
   * Note that you can select and download subsets of these data products. But all products hosted by WA DNR use WA state plane coordinate systems with horizontal and vertical units of feet, so extra steps to integrate with other datasets using standard units of meters.
 
