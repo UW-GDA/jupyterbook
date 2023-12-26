@@ -26,6 +26,7 @@
     * *Note as of March 2020, Github Classroom now has an option to do this when creating assignment*
 
 ## Prepare Github Classroom assignment:
+**Note: Some time in January 2024, Github will change how classroom assignments work. Check the blog post [here](https://github.blog/changelog/2023-12-08-upcoming-changes-to-assignment-repositories-and-starter-code-in-github-classroom/). Stay tuned for notes on our new workflow.**
 1. Go to https://classroom.github.com/classrooms/ and select the appropriate class
 1. New Individual Assignment
 1. Provide a name that is consistent with above: 02_Python_Core_Packages
