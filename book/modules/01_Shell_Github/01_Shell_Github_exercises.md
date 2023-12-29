@@ -18,12 +18,12 @@ OK, let's get started!
 ## Part 1: Look it up in the dictionary (1pt each)
 On your Unix/Linux filesystem, you typically have a dictionary of words (https://en.wikipedia.org/wiki/Words_(Unix)).  On OS X, this file is located in `/usr/share/dict/words`. This file is missing from our barebones JupyterHub Linux distribution, so I added one to the assignment git repo (2.4 MB).
 
-### Unzip `words`
+### Unzip `words` (if you don't already have the data directory in 01_Shell_Github/)
 Fortunately for you, the basic linux operating system we've provided includes command-line utilities to unzip files. Navigate to the directory containing the data:
 ```
-unzip gda_2021_data.zip
+unzip gda_2024_data.zip
 ```
-This should create a new `data` subdirectory, with two new files. Check them out with `ls -l data`
+This should create a new `data` subdirectory, with three new files. Check them out with `ls -l data`
 
 ### Inspect `words`
 1. The `words` file has no extension. What type of file is this? 
