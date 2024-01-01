@@ -157,4 +157,5 @@ git log --graph --pretty=format:'%Cred%h%Creset -%C(yellow)%d%Creset %s %Cgreen(
     ```
 
 # Introduce assignment
+* create `labs` folder!
 * Walk through first few questions of assignment together
