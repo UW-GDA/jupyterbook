@@ -18,7 +18,7 @@ OK, let's get started!
 ## Part 1: Look it up in the dictionary (1pt each)
 On your Unix/Linux filesystem, you typically have a dictionary of words (https://en.wikipedia.org/wiki/Words_(Unix)).  On OS X, this file is located in `/usr/share/dict/words`. This file is missing from our barebones JupyterHub Linux distribution, so I added one to the assignment git repo (2.4 MB).
 
-### Unzip `words` (if you don't already have the data directory in 01_Shell_Github/)
+### Unzip `words` 
 Fortunately for you, the basic linux operating system we've provided includes command-line utilities to unzip files. Navigate to the directory containing the data:
 ```
 unzip gda_2024_data.zip
@@ -91,10 +91,10 @@ This csv contains additional rows with missing longitudes, rows with impossible 
     - Can also modify the command sugestion from problem 1.
 4. Combined, how many errors have I introduced?
     - Can check your answer: \# of rows in `unfiltered_GLAH14_tllz_conus_lulcfilt_demfilt.csv` - \# of errors should equal \# of rows in `LAH14_tllz_conus_lulcfilt_demfilt.csv` :) 
-5. Create a new file that either removes records with missing longitude fields, removes records with impossible latitude values, or removes records with lulc values of 11.
+5. Create a new file `filtered_GLAH14_tllz_conus_lulcfilt_demfilt.csv` that either removes records with missing longitude fields, removes records with impossible latitude values, or removes records with lulc values of 11.
 
 ### Extra credit (+1 pt)
-Create a new file that removes all 3 types of errors (removes records with missing longitude fields, removes records with impossible latitude values, and removes records with lulc values of 11).
+Create a new file `fully_filtered_GLAH14_tllz_conus_lulcfilt_demfilt.csv` that removes all 3 types of errors (removes records with missing longitude fields, removes records with impossible latitude values, and removes records with lulc values of 11).
 
 
 ## Extra Credit: Shell script (+2 pts)
@@ -128,4 +128,5 @@ Create and run a script to answer the following question:
     * I recommend you start by adding files one at a time: `git add myawesomescript.sh`
     * For now, resist the temptation to `git add .` or `git commit -a`, as you will inevitably include files that don't belong in a git repo.
 2. Use `git commit -m "Message"` to commit these changes, replacing "Message" with an appropriate commit message.
-3. Use `git push` to push your local changes to your remote repo origin on Github
+3. Use `git push` to push your local changes to your remote repo origin on Github.
+4. Check Github to make sure all of your files have been added to the remote repository.
