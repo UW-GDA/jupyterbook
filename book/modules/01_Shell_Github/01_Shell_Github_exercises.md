@@ -89,8 +89,8 @@ This csv contains additional rows with missing longitudes, rows with impossible 
     - Remember, you can express a logical or as `||`.
 3. How many records have lulc values of 11?
     - Can also modify the command sugestion from problem 1.
-4. Combined, how many errors have I introduced?
-    - Can check your answer: \# of rows in `unfiltered_GLAH14_tllz_conus_lulcfilt_demfilt.csv` - \# of errors should equal \# of rows in `LAH14_tllz_conus_lulcfilt_demfilt.csv` :) 
+4. Combined, how many errors have I introduced? You can just add together your answer from 1, the number of records from 2, and add your answer from 3.
+    - Can check your answer: the number of rows in `unfiltered_GLAH14_tllz_conus_lulcfilt_demfilt.csv` minus the number of errors introduced should equal the number of rows in `LAH14_tllz_conus_lulcfilt_demfilt.csv` :) 
 5. Create a new file `filtered_GLAH14_tllz_conus_lulcfilt_demfilt.csv` that either removes records with missing longitude fields, removes records with impossible latitude values, or removes records with lulc values of 11.
 
 ### Extra credit (+1 pt)
