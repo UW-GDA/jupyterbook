@@ -45,7 +45,7 @@ Please attempt to work your way through the following lessons (make sure you att
 
 If all of this is new, don’t worry, but you will need to put in some extra time during the first few weeks of class to practice and get up to speed. This means actually typing the commands from tutorials and reviewing the output (don’t just skim or selectively copy/paste).
 
-If you’re stuck or confused, please send a message to the #01_shell_git Slack channel, and David, the TA, and/or or others in the class can help you work through issues.
+If you’re stuck or confused, please send a message to the #01_shell_git Slack channel, and Eric, Quinn, and/or or others in the class can help you work through issues.
 
 ## Assignment: Due *this* Friday
 * Complete the above reading assignments
