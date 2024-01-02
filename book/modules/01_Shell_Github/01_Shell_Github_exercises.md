@@ -70,7 +70,7 @@ Don't worry about details for now, we will explore in the coming weeks. For now,
         * `plot 'GLAH14_tllz_conus_lulcfilt_demfilt_latlon.txt' using 2:1 with dots`
         * `quit` to exit the gnuplot and get back to the shell
     * Try guessing what you think each command did.
-    * Open the new `latlon_plot.png` file which should be in your `data` folder. Remember, this data should be over the Western US. Just by inspection, can you guess the approximate latitude and longitude bounds of California?
+    * Open the new `latlon_plot.png` file which should be in your `data` folder. Remember, this data should be over the Western US. Just by inspection, can you guess the approximate latitude and longitude bounds of Washington?
 
 
 ## Part 3: Filter and clean tabular data (1pt each)
