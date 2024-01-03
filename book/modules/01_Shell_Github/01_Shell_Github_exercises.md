@@ -46,22 +46,32 @@ The text file `GLAH14_tllz_conus_lulcfilt_demfilt.csv` contains processed/filter
 
 Don't worry about details for now, we will explore in the coming weeks. For now, pretend your advisor/boss just sent you this random file (with no metadata) and asked you to inspect and clean up for their old-school analysis tools.
 
-1. Inspect the file on the command line. Use tab-completion after typing the first few letters of the filename. What command did you use?
-2. The extension suggests that this is comma-separated value (`.csv`) text file - is this true?
-3. Fortunately, there is a header on the first line containing strings for each field (column) name. Some of these should sound familiar.
+1. Inspect the file on the command line. Use tab-completion after typing the first few letters of the filename. The extension suggests that this is comma-separated value (`.csv`) text file - is this true?
+2. Fortunately, there is a header on the first line containing strings for each field (column) name. Some of these should sound familiar.
    * How many fields are there?
    * How many rows contain data (excluding the header)?
-4. How many records are from 2005?
+3. How many records are from 2005?
     * Utilities like `grep` and `sed` offer powerful functionality with "regular expressions" - one could spend weeks learning these. 
     * For now, I'll give you a hint, if you preceed your `grep` search string with a carat `^` e.g., `^stringtofind`, it will only return records that begin with `stringtofind`, excluding any records with `stringtofind` elsewhere in the string.
     * You'll want to use a pipe `|` here to pass the output of `grep` to another command that can count the number of lines.
-5. Create a new file with only the `lat` and `lon` fields, separated by a space, and sorted in ascending order by `lat` value.
+4. Create a new file named `GLAH14_tllz_conus_lulcfilt_demfilt_latlon.txt` with only the `lat` and `lon` fields, separated by a space, and sorted in ascending order by `lat` value. 
     * This should be possible without any loops, just need to redirect the stream using pipes `|` and `>`. Let's break the problem down.
        * First, isolate the `lat` and `lon` fields - several ways to do this
        * Pipe that output to a command that will replace the `,` with a ` ` on all lines
        * Pipe that output to a command that will sort the numeric `lat` values
        * Redirect that output to a new file
        * Run a quick `head` and `tail` on the output file to verify
+5. Try to plot this new file using the command line gnuplot tool. 
+    * Run the following commands:
+        * `gnuplot` to leave the shell and enter the gnuplot tool
+        * `set terminal png`
+        * `set output 'latlon_plot.png'`
+        * `set datafile separator ' '`
+        * `plot 'GLAH14_tllz_conus_lulcfilt_demfilt_latlon.txt' using 2:1 with dots`
+        * `quit` to exit the gnuplot and get back to the shell
+    * Try guessing what you think each command did.
+    * Open the new `latlon_plot.png` file which should be in your `data` folder. Remember, this data should be over the Western US. Just by inspection, can you guess the approximate latitude and longitude bounds of California?
+
 
 ## Part 3: Filter and clean tabular data (1pt each)
 Uh oh! Let's pretend we've made some mistakes. We've taken the `GLAH14_tllz_conus_lulcfilt_demfilt.csv` and inserted some incorrect rows to create `unfiltered_GLAH14_tllz_conus_lulcfilt_demfilt.csv`. 
@@ -84,7 +94,7 @@ This csv contains additional rows with missing longitudes, rows with impossible 
 5. Create a new file that either removes records with missing longitude fields, removes records with impossible latitude values, or removes records with lulc values of 11.
 
 ### Extra credit (+1 pt)
-Create a new file that removes all 3 types of errors (records with missing longitude fields, removes records with impossible latitude values, and removes records with lulc values of 11).
+Create a new file that removes all 3 types of errors (removes records with missing longitude fields, removes records with impossible latitude values, and removes records with lulc values of 11).
 
 
 ## Extra Credit: Shell script (+2 pts)
