@@ -45,5 +45,5 @@ https://jakevdp.github.io/PythonDataScienceHandbook/. You should have previously
 
 ## Assignment (due Friday)
 * Complete above reading/tutorials
-* Fill out the following feedback form: https://forms.gle/qLPWVAgRV3Mqfd4G9
+* Fill out the following feedback form: https://forms.gle/H9DZHgs3cgpT3ZW9A
 * Finish and turn in the lab exercises from last week (due midnight on Friday)
