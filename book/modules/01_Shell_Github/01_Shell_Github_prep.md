@@ -21,7 +21,7 @@ We are going to “flip the classroom” for the first two weeks. Before class, 
 ## Reading and Tutorials - *Complete before first Friday lab*
 I recommend that you break these lessons up into a few sessions, so you have some time to digest what you’re learning (don’t attempt to get through everything an hour before lab starts). Even if you are already an expert on these topics, please take some time to work through the lessons. I guarantee that you will learn something new or will gain a better understanding of something that you’ve seen before (I certainly did).
 
-Please attempt to work your way through the following lessons (make sure you attempt some of the relevant examples!):
+Please attempt to work your way through the following lessons (make sure you attempt some of the relevant examples!). No need to do these command line exercises locally--open the jupyterhub, click the blue plus sign in the top left corner, then select terminal. You can try out the commands there!
 
 ### 1. Background
 * Chapter 1 of Introduction to Earth Data Science Textbook: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/ (~30 min)
@@ -30,6 +30,7 @@ Please attempt to work your way through the following lessons (make sure you att
 
 ### 2. Unix shell
 * Software Carpentry: http://swcarpentry.github.io/shell-novice/ (~2-4 hours).
+    * If you are using the jupyterhub for these exercises (recommended), you can upload the shell-lesson-data.zip file to the jupyterhub using the upload button in the top left corner. Make note of where in the file system you upload.
     * You don’t need to master all of this material, but you need to know the basics (navigating the filesystem, previewing/editing text files, basic for loops and conditionals). Please try to read through most of the lessons and do some interactive exploration on your own.
     * If you already feel very comfortable with the shell, and the beginner material is too basic, spend some time working through the intermediate lesson: https://carpentries-incubator.github.io/shell-extras/.  
 * Chapter 2 of Introduction to Earth Data Science Textbook: https://www.earthdatascience.org/courses/intro-to-earth-data-science/open-reproducible-science/bash/
