@@ -57,7 +57,7 @@ If all of this is too basic (or you’re curious), try one or more of the follow
     * For example, when you `import os`, here's what you're running: https://github.com/python/cpython/blob/master/Lib/os.py
 * Review the Python style guide: https://www.python.org/dev/peps/pep-0008/
 
-## Assignment: due next Friday before lab
+## Assignment: due Friday before lab
 * Complete the above reading
 * Fill out this form: https://forms.gle/CFK8twgfDH5SY26m7
 * Finish and turn in the lab exercises from last week
