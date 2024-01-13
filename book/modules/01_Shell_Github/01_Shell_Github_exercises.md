@@ -103,7 +103,7 @@ Create and run a script to answer the following question:
 *How many words begin with each letter of the alphabet (case-insensitive)?*
 
 ### Useful references for review
-* [http://swcarpentry.github.io/shell-novice/06-script/index.html](http://swcarpentry.github.io/shell-novice/06-script/index.html)
+* [https://swcarpentry.github.io/shell-novice/06-script.html](https://swcarpentry.github.io/shell-novice/06-script.html)
 
 ### Requirements:
 * Ignore case, so "A" and "a" are considered the same word
